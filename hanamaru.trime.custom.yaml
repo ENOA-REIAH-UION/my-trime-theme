@@ -7,6 +7,8 @@ patch:
       __include: hanamaru.trime:preset_keyboards/default
       __patch:
         keys/@30/composing: Tab
+        keys/@31/composing: ""
+        keys/@35/composing: ""
         keys/@36/composing: ""
 
     snow_qingyun: 
