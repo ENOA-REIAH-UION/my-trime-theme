@@ -1,13 +1,22 @@
 # Hanamru Theme for Trime
 
-个人自用的 Trime（同文输入法）主题方案。
+使用 nickel 编写的 Trime 主题配置。
 
-## 简介
+## 预览图
 
-本主题在键盘布局与配色上借鉴了 `f5a` 与 `md3` 的设计理念，同时结合同文标准主题的流行色系进行调整与融合，形成了一套轻量且个性化的主题方案。
+| Light | Dark |
+|-------|-------|
+| ![Light](./images/hanamaru_light.png) | ![Dark](./images/hanamaru_dark.png) |
 
-> 本主题带有一定的实验性质 —— **可能降低中文输入体验**，请谨慎使用。
+## 主题变体
 
-## TODO
+| 文件 | 说明 |
+|------|------|
+| hanamaru | 主体主题 |
+| hanamaru27 | 27键布局 |
+| hanamaru30 | 30键布局 |
+| hanamaru30_column | 30键矩阵布局 |
+
+## 待办
 
 - [ ] 重新设计数字键盘

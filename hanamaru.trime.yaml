@@ -1,649 +1,1417 @@
-# Hanamaru Trime Theme Configuration
-# encoding: utf-8
+author: https://github.com/ENOA-REIAH-UION
+config_version: 2026-04-28
+fallback_colors:
+  background_enter: off_key_back_color
+  background_normal: off_key_back_color
+  candidate_text_color: text_color
+  text_enter: off_key_text_color
+  text_normal: off_key_text_color
+liquid_keyboard:
+  ascii:
+    keys: ',.?!:;/\|*-+=^$`''"^~@#%&()[]{}_'
+    name: 英文
+    type: SINGLE
+  author: tumuyan
+  candidate:
+    name: 候选
+    type: CANDIDATE
+  clipboard:
+    name: 剪贴
+    type: CLIPBOARD
+  cn:
+    keys:
+    - ，
+    - 。
+    - ？
+    - ！
+    - ：
+    - 、
+    - ❝
+    - ❞
+    - ''''
+    - ···
+    - ……
+    - click: '-'
+    - click: ——
+      label: 破折
+    - click: ''
+    - （
+    - ）
+    - 【
+    - 】
+    - 《
+    - 》
+    - ［
+    - ］
+    - ｛
+    - ｝
+    - 「
+    - 」
+    - 『
+    - 』
+    - ～
+    name: 中文
+    type: SINGLE
+  collection:
+    name: 收藏
+    type: COLLECTION
+  combing:
+    keys:
+    - ⃢
+    - ꯭
+    - ̣
+    - ̲
+    name: 组合
+    type: SINGLE
+  draft:
+    name: 草稿
+    type: DRAFT
+  emoji:
+    keys: 🤓😡🤡😋😅😭🤔😆🤣😂😎👍
+    type: SINGLE
+  emoji_full:
+    keys: 😀😃😄😁😆😅🤣😂🙂🙃🫠😉😊😇🥰😍🤩😘😗☺😚😙🥲😋😛😜🤪😝🤑🤗🤭🫢🫣🤫🤔🫡🤐🤨😐😑😶🫥😏😒🙄😬🤥😌😔😪🤤😴😷🤒🤕🤢🤮🤧🥵🥶🥴😵🤯🤠🥳🥸😎🤓🧐😕🫤😟🙁☹😮😯😲😳🥺🥹😦😧😨😰😥😢😭😱😖😣😞😓😩😫🥱😤😡😠🤬😈👿💀☠💩🤡👹👺👻👽👾🤖😺😸😹😻😼😽🙀😿😾🙈🙉🙊💌💘💝💖💗💓💞💕💟❣💔❤🧡💛💚💙💜🤎🖤🤍💋💯💢💥💫💦💨🕳💬🗨🗯💭💤👋🤚🖐✋🖖🫱🫲🫳🫴👌🤌🤏✌🤞🫰🤟🤘🤙👈👉👆🖕👇☝🫵👍👎✊👊🤛🤜👏🙌🫶👐🤲🤝🙏✍💅🤳💪🦾🦿🦵🦶👂🦻👃🧠🫀🫁🦷🦴👀👁👅👄🫦👶🧒👦👧🧑👱👨🧔👩🧓👴👵🙍🙎🙅🙆💁🙋🧏🙇🤦🤷👮🕵💂🥷👷🫅🤴👸👳👲🧕🤵👰🤰🫃🫄🤱👼🎅🤶🦸🦹🧙🧚🧛🧜🧝🧞🧟🧌💆💇🚶🧍🧎🏃💃🕺🕴👯🧖🧗🤺🏇⛷🏂🏌🏄🚣🏊⛹🏋🚴🚵🤸🤼🤽🤾🤹🧘🛀🛌👭👫👬💏💑👪🗣👤👥🫂👣🏻🏼🏽🏾🏿🦰🦱🦳🦲🐵🐒🦍🦧🐶🐕🦮🐩🐺🦊🦝🐱🐈🦁🐯🐅🐆🐴🐎🦄🦓🦌🦬🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐🐪🐫🦙🦒🐘🦣🦏🦛🐭🐁🐀🐹🐰🐇🐿🦫🦔🦇🐻🐨🐼🦥🦦🦨🦘🦡🐾🦃🐔🐓🐣🐤🐥🐦🐧🕊🦅🦆🦢🦉🦤🪶🦩🦚🦜🐸🐊🐢🦎🐍🐲🐉🦕🦖🐳🐋🐬🦭🐟🐠🐡🦈🐙🐚🪸🐌🦋🐛🐜🐝🪲🐞🦗🪳🕷🕸🦂🦟🪰🪱🦠💐🌸💮🪷🏵🌹🥀🌺🌻🌼🌷🌱🪴🌲🌳🌴🌵🌾🌿☘🍀🍁🍂🍃🪹🪺🍄🍇🍈🍉🍊🍋🍌🍍🥭🍎🍏🍐🍑🍒🍓🫐🥝🍅🫒🥥🥑🍆🥔🥕🌽🌶🫑🥒🥬🥦🧄🧅🥜🫘🌰🍞🥐🥖🫓🥨🥯🥞🧇🧀🍖🍗🥩🥓🍔🍟🍕🌭🥪🌮🌯🫔🥙🧆🥚🍳🥘🍲🫕🥣🥗🍿🧈🧂🥫🍱🍘🍙🍚🍛🍜🍝🍠🍢🍣🍤🍥🥮🍡🥟🥠🥡🦀🦞🦐🦑🦪🍦🍧🍨🍩🍪🎂🍰🧁🥧🍫🍬🍭🍮🍯🍼🥛☕🫖🍵🍶🍾🍷🍸🍹🍺🍻🥂🥃🫗🥤🧋🧃🧉🧊🥢🍽🍴🥄🔪🫙🏺🌍🌎🌏🌐🗺🗾🧭🏔⛰🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🧱🪨🪵🛖🏘🏚🏠🏡🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰💒🗼🗽⛪🕌🛕🕍⛩🕋⛲⛺🌁🌃🏙🌄🌅🌆🌇🌉♨🎠🛝🎡🎢💈🎪🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚐🚑🚒🚓🚔🚕🚖🚗🚘🚙🛻🚚🚛🚜🏎🏍🛵🦽🦼🛺🚲🛴🛹🛼🚏🛣🛤🛢⛽🛞🚨🚥🚦🛑🚧⚓🛟⛵🛶🚤🛳⛴🛥🚢✈🛩🛫🛬🪂💺🚁🚟🚠🚡🛰🚀🛸🛎🧳⌛⏳⌚⏰⏱⏲🕰🕛🕧🕐🕜🕑🕝🕒🕞🕓🕟🕔🕠🕕🕡🕖🕢🕗🕣🕘🕤🕙🕥🕚🕦🌑🌒🌓🌔🌕🌖🌗🌘🌙🌚🌛🌜🌡☀🌝🌞🪐⭐🌟🌠🌌☁⛅⛈🌤🌥🌦🌧🌨🌩🌪🌫🌬🌀🌈🌂☂☔⛱⚡❄☃⛄☄🔥💧🌊🎃🎄🎆🎇🧨✨🎈🎉🎊🎋🎍🎎🎏🎐🎑🧧🎀🎁🎗🎟🎫🎖🏆🏅🥇🥈🥉⚽⚾🥎🏀🏐🏈🏉🎾🥏🎳🏏🏑🏒🥍🏓🏸🥊🥋🥅⛳⛸🎣🤿🎽🎿🛷🥌🎯🪀🪁🎱🔮🪄🎮🕹🎰🎲🧩🧸🪅🪩🪆♠♥♦♣♟🃏🀄🎴🔫🎭🖼🎨🧵🪡🧶🪢👓🕶🥽🥼🦺👔👕👖🧣🧤🧥🧦👗👘🥻🩱🩲🩳👙👚👛👜👝🛍🎒🩴👞👟🥾🥿👠👡🩰👢👑👒🎩🎓🧢🪖⛑📿💄💍💎🔇🔈🔉🔊📢📣📯🔔🔕🎼🎵🎶🎙🎚🎛🎤🎧📻🎷🪗🎸🎹🎺🎻🪕🥁🪘📱📲☎📞📟📠🔋🪫🔌💻🖥🖨⌨🖱🖲💽💾💿📀🧮🎥🎞📽🎬📺📷📸📹📼🔍🔎🕯💡🔦🏮🪔📔📕📖📗📘📙📚📓📒📃📜📄📰🗞📑🔖🏷💰🪙💴💵💶💷💸💳🧾💹✉📧📨📩📤📥📦📫📪📬📭📮🗳✏✒🖋🖊🖌🖍📝💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐✂🗃🗄🗑🔒🔓🔏🔐🔑🗝💣🔨🪓⛏⚒🛠🗡⚔🪃🏹🛡🪚🔧🪛🔩⚙🗜⚖🦯🔗⛓🪝🧰🧲🪜⚗🧪🧫🧬🔬🔭📡💉🩸💊🩹🩼🩺🩻🚪🛗🪞🪟🛏🛋🪑🚽🪠🚿🛁🪤🪒🧴🧷🧹🧺🧻🪣🧼🫧🪥🧽🧯🛒🧿🪬🚬⚰🪦⚱🗿🪧🪪🏧🚮🚰♿🚹🚺🚻🚼🚾🛂🛃🛄🛅⚠🚸⛔🚫🚳🚭🚯🚱🚷📵🔞☢☣⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🛐⚛🕉✡☸☯✝☦☪☮🕎🔯♈♉♊♋♌♍♎♏♐♑♒♓⛎🔀🔁🔂▶⏩⏭⏯◀⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎦🔅🔆📶📳📴♀♂⚧✖➕➖➗🟰♾‼⁉❓❔❕❗〰💱💲⚕♻⚜🔱📛🔰⭕✅☑✔❌❎➰➿〽✳✴❇©®™🔟🔠🔡🔢🔣🔤🅰🆎🅱🆑🆒🆓ℹ🆔Ⓜ🆕🆖🅾🆗🅿🆘🆙🆚🈁🈂🈷🈶🈯🉐🈹🈚🈲🉑🈸🈴🈳㊗㊙🈺🈵🔴🟠🟡🟢🔵🟣🟤⚫⚪🟥🟧🟨🟩🟦🟪🟫⬛⬜◼◻◾◽▪▫🔶🔷🔸🔹🔺🔻💠🔘🔳🔲🏁🚩🎌🏴🏳
+    name: 全emoji
+    type: SINGLE
+  fixed_key_bar:
+    keys:
+    - liquid_keyboard_exit
+    - liquid_space
+    - liquid_back_space
+    - liquid_return
+    - liquid_keyboard_clipboard
+    - liquid_keyboard_tabs
+    position: right
+  grease:
+    keys: ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψω
+    name: 希腊
+    type: SINGLE
+  history:
+    name: 常用
+    type: HISTORY
+  ids:
+    keys: ⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻↷↔
+    name: IDS
+    type: SINGLE
+  jp:
+    keys: あいうえおかがきぎくぐけげこごさざしじすずせぜそぞただちぢつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろわをんアィイウェエオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロワヲン
+    name: 假名
+    type: SINGLE
+  key_height: 40
+  key_height_land: 40
+  keyboards:
+  - emoji
+  - math
+  - ascii
+  - cn
+  - history
+  - clipboard
+  - collection
+  - draft
+  - symbollist
+  - list
+  - ids
+  - symbol
+  - tabs
+  - pinyin
+  - script_symbols
+  - jp
+  - grease
+  - rusa
+  - korea
+  - lation
+  - yinbiao
+  - unit
+  - yanwenzi
+  - combing
+  - emoji_full
+  - candidate
+  korea:
+    keys: dㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣㅐㅒㅔㅖㅘㅙㅚㅝㅞㅟㅢㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㄲㄸㅚㅆㅉ㉠㉡㉢㉣㉤㉥㉦㉧㉨㉩㉪㉫㉬㉭㉮㉯㉰㉱㉲㉳㉴㉵㉶㉷㉸㉹㉺㉻
+    name: 韩文
+    type: SINGLE
+  lation:
+    keys: ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞŠŸŒàáâãäåæçèéêëìíîïðñòóõôöøùúûüýþšÿœ
+    name: 拉丁
+    type: SINGLE
+  list:
+    keys: ①②③④⑤⑥⑦⑧⑨⑩⒈⒉⒊⒋⒌⒍⒎⒏⒐⒑⒒⒓⒔⒕⒖⒗⒘⒙⒚⒛⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽⑾⑿⒀⒁⒂⒃⒄⒅⒆⒇
+    name: 列表
+    type: SINGLE
+  margin_x: 2
+  math:
+    keys: ≈＝≠≌<>≤≥≡()[]{}-+±×*/÷&∥%‰‱°′″∫∮∯∬∭∰∞∑∧∏∈∵∴⊥∝∨∪•√
+    name: 数学
+    type: SINGLE
+  pinyin:
+    keys: āáǎàōóěěèǒòīíǐìūúǖǘǚǜǔùêüńňㄚㄛㄜㄧㄨㄩㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄓㄔㄕㄖㄗㄘㄙ
+    name: 拼音
+    type: SINGLE
+  row: 6
+  row_land: 5
+  rusa:
+    keys: АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя
+    name: 俄语
+    type: SINGLE
+  script_symbols:
+    keys: 𝒶𝒷𝒸𝒹ℯ𝒻ℊ𝒽𝒾𝒿𝓀𝓁𝓂𝓃ℴ𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓎𝓏𝒜ℬ𝒞𝒟ℰℱ𝒢ℋℐ𝒥𝒦ℒℳ𝒩𝒪𝒫𝒬ℛ𝒮𝒯𝒰𝒱𝒲𝒳𝒴𝒵
+    name: 𝒶𝒜
+    type: SINGLE
+  single_width: 60
+  symbol:
+    keys: △▽○◇□☆▲▼●◆■★▷◁▶◀♻♲†⚝✡⚹✦✸✹✖×⌫☑☒✅❎✔✘✓✗☀☼☽☾◑◐㏂㏘☭♀♂☹☻☠☜☝☞☚☟☛▪•‥…ː※♩♪♫♬§°♭♯♮‖¶№◎¤۞℗®©卍卐℡™㏇Φ⇦⇧⇨⇩⇪↖↑↗←↔→↙↓↘⇄⇅⇆⇤↩⇥▸◂▴▾◤◥◣◢㊤㊧㊥㊨㊦❏❐◲〼▢▣↶✁↷✍⏍ϟ📝✎✆☱☰☴⚿⛮⚙☲☯☵⛶☩☐☳☷☶💬🗨⟲ღ✈☂🎤🌐🔍
+    name: 特殊
+    type: SINGLE
+  symbollist:
+    keys:
+    - 符号: /fh
+    - 电脑: /dn
+    - 象棋: /xq
+    - 麻将: /mj
+    - 骰子: /sz
+    - 扑克: /pk
+    - 天气: /tq
+    - 音乐: /yy
+    - 八卦: /bg
+    - 易经: /lssg
+    - 天体: /tt
+    - 星座: /xz
+    - 星号: /xh
+    - 方块: /fk
+    - 几何: /jh
+    - 箭头: /jt
+    - 数学: /sx
+    - 上标: /sb
+    - 下标: /xb
+    - 单位: /dw
+    - 货币: /hb
+    - 拼音: /py
+    - 注音: /zy
+    - 假名: /jm
+    - 片假: /pjm
+    - 韩文: /hw
+    - 希腊: /xl
+    - 希大: /xld
+    - 罗马: /lm
+    - 罗大: /lmd
+    - 俄语: /ey
+    - 俄大: /eyd
+    - 表情: /bq
+    - 一: /1
+    - 二: /2
+    - 三: /3
+    - 四: /4
+    - 五: /5
+    - 六: /6
+    - 七: /7
+    - 八: /8
+    - 九: /9
+    - 零: /0
+    - 十: /10
+    - 分数: /fs
+    - 标点: /bd
+    - 偏旁: /pp
+    - 竖标: /bdz
+    name: 符号表
+    type: SYMBOL
+  tabs:
+    name: 更多
+    type: TABS
+  unit:
+    keys: ℃¥$€฿￡㎡m³℉￥£￠₠¹²³⁴⁵ⁿ⁶⁷⁸⁹⁰ˣ⁺⁻⁼⁽⁾½⅓¼⅔¾₁₂₃₄₅ₙ₆₇₈₉₀ₓ₊₋₌₍₎℅
+    name: 单位
+    type: SINGLE
+  vertical_gap: 8
+  yanwenzi:
+    keys:
+    - ⎛⎝≥⏝⏝≤⎠⎞
+    - ^_^
+    - ^ω^
+    - ^o^
+    - ~\(≧▽≦)/~
+    - '*^_^*'
+    - ↖(^ω^)↗
+    - (^o^)／
+    - (=^▽^=)
+    - =^_^=
+    - (*^ω^*)
+    - ٩(๑^o^๑)۶
+    - o(￣▽￣)o
+    - Y(^_^)Y
+    - ٩( 'ω' )و
+    - ╰(*´︶`*)╯
+    - '*罒▽罒*'
+    - ヾ ^_^♪
+    - =￣ω￣=
+    - ︿(￣︶￣)︿
+    - (´▽｀)ノ♪
+    - 乁( ˙ ω˙乁)
+    - ✧*｡٩(ˊωˋ*)و✧*｡
+    name: 颜文字
+    type: VAR_LENGTH
+  yinbiao:
+    keys:
+    - 'a:'
+    - 'ɔ:'
+    - ɜː
+    - 'i:'
+    - 'u:'
+    - ʌ
+    - ɒ
+    - ə
+    - ɪ
+    - ʊ
+    - e
+    - æ
+    - eɪ
+    - aɪ
+    - ɔɪ
+    - ɪə
+    - eə
+    - ʊə
+    - əʊ
+    - aʊ
+    - p
+    - t
+    - k
+    - f
+    - θ
+    - s
+    - b
+    - d
+    - g
+    - v
+    - ð
+    - z
+    - ʃ
+    - h
+    - ts
+    - tʃ
+    - j
+    - tr
+    - ʒ
+    - r
+    - dz
+    - dʒ
+    - dr
+    - w
+    - m
+    - n
+    - ŋ
+    - l
+    name: 音标
+    type: SINGLE
+name: hanamaru
+preedit:
+  alpha: 0.8
+  foreground:
+    font_size: 16
+  horizontal_padding: 8
+  top_end_radius: 0
+preset_color_schemes:
+  default:
+    author: Enoa
+    border_color: '0xFFF5F0F4'
+    candidate_back_color: '0xFFF5F0F4'
+    candidate_separator_color: '0xFFE4D9E0'
+    comment_text_color: '0xFF78808D'
+    dark_scheme: fcitx5_mone_dark
+    hilited_back_color: '0x00000000'
+    hilited_candidate_back_color: '0x00000000'
+    hilited_candidate_text_color: '0xFF3B00FF'
+    hilited_key_back_color: '0xFF6750A4'
+    hilited_key_text_color: '0xFFFFFFFF'
+    hilited_off_key_back_color: '0xFF6750A4'
+    hilited_off_key_text_color: '0xFFFFFFFF'
+    hilited_on_key_back_color: '0xFF6750A4'
+    hilited_on_key_text_color: '0xFFFFFFFF'
+    key_back_color: '0xFFFFFFFF'
+    key_text_color: '0xFF2E2E2E'
+    keyboard_back_color: '0xFFF5F0F4'
+    name: Material Design Light
+    off_key_back_color: '0xFFEADDFF'
+    on_key_back_color: '0xFF6750A4'
+    on_key_text_color: '0xFFFFFFFF'
+    popup_back_color: '0xFFF5F0F4'
+    text_back_color: '0xFFFFFFFF'
+    text_color: '0xFF2E2E2E'
+  fcitx5_mone_dark:
+    author: Enoa
+    background_enter: '0xFFB3C5FF'
+    border_color: '0xFF1C1F29'
+    candidate_separator_color: '0xFF363943'
+    candidate_text_color: '0xFFE0E2EF'
+    comment_text_color: '0xFFC3C6D6'
+    hilited_back_color: '0x00000000'
+    hilited_candidate_back_color: '0x00000000'
+    hilited_candidate_text_color: '0xFFE0E2EF'
+    hilited_comment_text_color: '0xFFC3C6D6'
+    hilited_key_back_color: '0xFFB3C5FF'
+    hilited_key_text_color: '0xFF002B75'
+    hilited_off_key_back_color: '0xFFB3C5FF'
+    hilited_off_key_text_color: '0xFF002B75'
+    hilited_on_key_back_color: '0xFFB3C5FF'
+    hilited_on_key_text_color: '0xFF002B75'
+    hilited_popup_text_color: '0xFF1C1F29'
+    hilited_text_color: '0xFFE0E2EF'
+    key_back_color: '0xFF363943'
+    key_text_color: '0xFFE0E2EF'
+    keyboard_back_color: '0xFF1C1F29'
+    name: Fcitx5 Monet Dark
+    off_key_back_color: '0xFF444465'
+    off_key_text_color: '0xFFE0E2EF'
+    on_key_back_color: '0xFFB3C5FF'
+    on_key_text_color: '0xFF002B75'
+    popup_back_color: '0xFF1C1F29'
+    text_back_color: '0xFF1C1F29'
+    text_color: '0xFFB3C5FF'
+    text_enter: '0xFF002B75'
+  material_dark:
+    author: Enoa
+    background_enter: '0xFFB0C6FF'
+    border_color: '0xFF1B1A1F'
+    comment_text_color: '0xFF838383'
+    hilited_back_color: '0xFFB0C6FF'
+    hilited_candidate_back_color: '0xFFB0C6FF'
+    hilited_candidate_text_color: '0xFF000000'
+    hilited_comment_text_color: '0xFF838383'
+    hilited_key_back_color: '0xFFB0C6FF'
+    hilited_key_text_color: '0xFF000000'
+    hilited_off_key_back_color: '0xFFB0C6FF'
+    hilited_off_key_text_color: '0xFF000000'
+    hilited_on_key_back_color: '0xFFB0C6FF'
+    hilited_on_key_text_color: '0xFF000000'
+    hilited_text_color: '0xFFFFFFFF'
+    key_back_color: '0xFF2F2E33'
+    key_text_color: '0xFFFFFFFF'
+    keyboard_back_color: '0xFF1B1A1F'
+    name: Material Design Dark
+    off_key_back_color: '0xFF46474B'
+    off_key_text_color: '0xFFFFFFFF'
+    on_key_back_color: '0xFFB0C6FF'
+    on_key_text_color: '0xFF000000'
+    text_back_color: '0xFF1B1A1F'
+    text_color: '0xFFB0C6FF'
+    text_enter: '0xFF000000'
+  steam:
+    author: Patricivs <ipatrickmac@me.com>
+    back_color: '0xFF171614'
+    border_color: '0xFF383635'
+    candidate_text_color: '0xFFFFFFFF'
+    comment_text_color: '0xFFA9A7A7'
+    hilited_back_color: '0xFF171614'
+    hilited_candidate_back_color: '0xFF314259'
+    hilited_candidate_text_color: '0xFFFFFFFF'
+    hilited_comment_text_color: '0xFFA9A7A7'
+    hilited_text_color: '0xFFD1CFC9'
+    label_color: '0xFFFFFFFF'
+    name: Steam
+    text_color: '0xFF528CCD'
+  tongwenfeng:
+    author: 风花絮
+    back_color: '0xFFFFFFFF'
+    background_enter: '0xFF3266A0'
+    background_key: '0xFFFFFFFF'
+    background_normal: '0xFFACB2C2'
+    border_color: '0xFFFFFFFF'
+    candidate_separator_color: '0xFFFFFFFF'
+    candidate_text_color: '0xFF000000'
+    comment_text_color: '0xFF838383'
+    dark_scheme: steam
+    hilited_back_color: '0xFFFFFFFF'
+    hilited_candidate_back_color: '0xFFFFFFFF'
+    hilited_candidate_text_color: '0xFF3266A0'
+    hilited_comment_text_color: '0xFF000000'
+    hilited_key_back_color: '0xFF3266A0'
+    hilited_key_symbol_color: '0xFFFFFFFF'
+    hilited_key_text_color: '0xFF000000'
+    hilited_off_key_back_color: '0xFFFFFFFF'
+    hilited_off_key_text_color: '0xFF000000'
+    hilited_text_color: '0xFF000000'
+    key_back_color: '0xFFFFFFFF'
+    key_symbol_color: '0xFF838383'
+    key_text_color: '0xFF000000'
+    keyboard_back_color: '0xFFE1E3E7'
+    label_color: '0xFF3266A0'
+    name: 标准配色
+    off_key_back_color: '0xFFACB2C2'
+    off_key_text_color: '0xFFFFFFFF'
+    preview_back_color: '0xFFACB2C2'
+    preview_text_color: '0xFF3266A0'
+    text_back_color: '0xFFFFFFFF'
+    text_color: '0xFF3266A0'
+    text_enter: '0xFFFFFFFF'
+preset_keyboards:
+  default:
+    ascii_mode: 0
+    author: ' '
+    key_symbol_offset_x: 14
+    keys:
+    - click: q
+      long_click: '`'
+      swipe_down: home
+      swipe_up: '`'
+    - click: w
+      long_click: '{'
+      swipe_up: '{'
+    - click: e
+      long_click: '}'
+      swipe_up: '}'
+    - click: r
+      long_click: '['
+      swipe_up: '['
+    - click: t
+      long_click: ']'
+      swipe_up: ']'
+    - click: y
+      long_click: '%'
+      swipe_up: '%'
+    - click: u
+      long_click: =
+      swipe_up: =
+    - click: i
+      long_click: '|'
+      swipe_down: lua_music
+      swipe_up: '|'
+    - click: o
+      long_click: ^
+      swipe_up: ^
+    - click: p
+      long_click: \
+      swipe_down: end
+      swipe_up: \
+    - width: 5
+    - click: a
+      long_click: '@'
+      swipe_down: select_all
+      swipe_up: '@'
+    - click: s
+      long_click: '#'
+      swipe_up: '#'
+    - click: d
+      long_click: '~'
+      swipe_down: date
+      swipe_up: '~'
+    - click: f
+      long_click: _
+      swipe_down: time
+      swipe_up: _
+    - click: g
+      long_click: '&'
+      swipe_down: keyboard_edit
+      swipe_up: '&'
+    - click: h
+      long_click: '-'
+      swipe_up: '-'
+    - click: j
+      long_click: +
+      swipe_down: liquid_keyboard_clipboard
+      swipe_up: +
+    - click: k
+      long_click: (
+      swipe_down: liquid_keyboard_emoji
+      swipe_up: (
+    - click: l
+      long_click: )
+      swipe_down: '{hint_switch}{symbol_switch}'
+      swipe_up: )
+    - width: 5
+    - click: shift_L
+      composing: escape
+      double_click: shift_L2
+      hilited_key_back_color: background_enter
+      label_symbol: ' '
+      long_click: shift_L
+      swipe_down: menu
+      width: 15
+    - click: z
+      long_click: '*'
+      swipe_up: '*'
+    - click: x
+      long_click: '"'
+      swipe_down: cut
+      swipe_up: '"'
+    - click: c
+      long_click: ''''
+      swipe_down: copy
+      swipe_up: ''''
+    - click: v
+      long_click: $
+      swipe_down: paste
+      swipe_up: $
+    - click: b
+      long_click: ':'
+      swipe_up: ':'
+    - click: n
+      long_click: '!'
+      swipe_down: |2+
 
-config_version: "2026-01-08"
-name: "Hanamaru"
-author: "https://github.com/ENOA-ANSUL-EDEN"
+      swipe_up: '!'
+    - click: m
+      long_click: '?'
+      swipe_down: ascii_mode_switch
+      swipe_up: '?'
+    - click: back_space_2
+      swipe_down: delete_line
+      swipe_left: Delete
+      swipe_up: clear_all
+      width: 15
+    - click: keyboard_number
+      composing: candidate_2
+      swipe_down: theme_settings
+      swipe_up: liquid_keyboard_ascii
+      width: 15
+    - click: comma
+      composing: candidate_2
+      label: ' ，'
+      swipe_up: zdic_search
+    - click: ascii_mode_switch
+      composing: candidate_2
+      key_text_size: 20
+      label_symbol: ' '
+      long_click: liquid_keyboard_switch
+    - click: space
+      swipe_down: down
+      swipe_left: left
+      swipe_right: right
+      swipe_up: up
+      width: 30
+    - click: slash
+      composing: candidate_1
+    - click: period
+      composing: candidate_1
+      label: ' 。'
+    - click: return
+      composing: candidate_4
+      key_back_color: background_enter
+      key_text_color: text_enter
+      label_symbol: ' '
+      popup:
+      - color_switch
+      - theme_settings
+      swipe_up: Mode_switch
+      width: 15
+    label_transform: uppercase
+    name: 26键
+    reset_ascii_mode: false
+    width: 10
+  edit:
+    ascii_mode: 1
+    height: 70
+    keys:
+    - click: select_all
+    - click: ctrl_left
+    - click: up
+    - click: ctrl_right
+    - click: keyboard_default
+      width: 19
+    - click: cut
+    - click: left
+    - click: shift_L
+    - click: right
+    - click: space_2
+      width: 19
+    - click: copy
+    - click: home
+    - click: down
+    - click: end
+    - click: back_space
+      width: 19
+    - click: paste
+    - click: undo
+    - click: Tab
+    - click: redo
+    - click: return
+      width: 19
+    name: 编辑
+    width: 20.25
+  liuli:
+    import_preset: liuli_default
+  liuli_default:
+    ascii_mode: 0
+    author: ' '
+    key_symbol_offset_x: 14
+    keys:
+    - click: q
+      long_click: '`'
+      swipe_down: home
+      swipe_up: '`'
+    - click: w
+      long_click: '{'
+      swipe_up: '{'
+    - click: e
+      long_click: '}'
+      swipe_up: '}'
+    - click: r
+      long_click: '['
+      swipe_up: '['
+    - click: t
+      long_click: ']'
+      swipe_up: ']'
+    - click: y
+      long_click: '%'
+      swipe_up: '%'
+    - click: u
+      long_click: =
+      swipe_up: =
+    - click: i
+      long_click: '|'
+      swipe_down: lua_music
+      swipe_up: '|'
+    - click: o
+      long_click: ^
+      swipe_up: ^
+    - click: p
+      long_click: \
+      swipe_down: end
+      swipe_up: \
+    - width: 5
+    - click: a
+      long_click: '@'
+      swipe_down: select_all
+      swipe_up: '@'
+    - click: s
+      long_click: '#'
+      swipe_up: '#'
+    - click: d
+      long_click: '~'
+      swipe_down: date
+      swipe_up: '~'
+    - click: f
+      long_click: _
+      swipe_down: time
+      swipe_up: _
+    - click: g
+      long_click: '&'
+      swipe_down: keyboard_edit
+      swipe_up: '&'
+    - click: h
+      long_click: '-'
+      swipe_up: '-'
+    - click: j
+      long_click: +
+      swipe_down: liquid_keyboard_clipboard
+      swipe_up: +
+    - click: k
+      long_click: (
+      swipe_down: liquid_keyboard_emoji
+      swipe_up: (
+    - click: l
+      long_click: )
+      swipe_down: '{hint_switch}{symbol_switch}'
+      swipe_up: )
+    - width: 5
+    - click: shift_L
+      composing: escape
+      double_click: shift_L2
+      hilited_key_back_color: background_enter
+      label_symbol: ' '
+      long_click: shift_L
+      swipe_down: menu
+      width: 15
+    - click: z
+      long_click: '*'
+      swipe_up: '*'
+    - click: x
+      long_click: '"'
+      swipe_down: cut
+      swipe_up: '"'
+    - click: c
+      long_click: ''''
+      swipe_down: copy
+      swipe_up: ''''
+    - click: v
+      long_click: $
+      swipe_down: paste
+      swipe_up: $
+    - click: b
+      long_click: ':'
+      swipe_up: ':'
+    - click: n
+      long_click: '!'
+      swipe_down: |2+
 
+      swipe_up: '!'
+    - click: m
+      long_click: '?'
+      swipe_down: ascii_mode_switch
+      swipe_up: '?'
+    - click: back_space_2
+      swipe_down: delete_line
+      swipe_left: Delete
+      swipe_up: clear_all
+      width: 15
+    - click: keyboard_number
+      composing: Tab
+      swipe_down: theme_settings
+      swipe_up: liquid_keyboard_ascii
+      width: 15
+    - click: comma
+      composing: ''
+      label: ' ，'
+      swipe_up: zdic_search
+    - click: ascii_mode_switch
+      composing: candidate_2
+      key_text_size: 20
+      label_symbol: ' '
+      long_click: liquid_keyboard_switch
+    - click: space
+      swipe_down: down
+      swipe_left: left
+      swipe_right: right
+      swipe_up: up
+      width: 30
+    - click: slash
+      composing: candidate_1
+    - click: period
+      composing: ''
+      label: ' 。'
+    - click: return
+      composing: ''
+      key_back_color: background_enter
+      key_text_color: text_enter
+      label_symbol: ' '
+      popup:
+      - color_switch
+      - theme_settings
+      swipe_up: Mode_switch
+      width: 15
+    label_transform: uppercase
+    name: 26键
+    reset_ascii_mode: false
+    width: 10
+  number:
+    ascii_mode: 1
+    author: ' '
+    keys:
+    - click: +
+      key_back_color: background_normal
+      key_text_color: text_normal
+      long_click: '#'
+    - click: 1
+    - click: 2
+    - click: 3
+    - click: space_2
+      key_back_color: background_normal
+      key_text_color: text_normal
+    - click: '-'
+      key_back_color: background_normal
+      key_text_color: text_normal
+      long_click: '%'
+    - click: 4
+    - click: 5
+    - click: 6
+    - click: =
+      key_back_color: background_normal
+      key_text_color: text_normal
+    - click: '*'
+      key_back_color: background_normal
+      key_text_color: text_normal
+      long_click: u
+    - click: 7
+    - click: 8
+    - click: 9
+    - click: back_space
+    - click: /
+      key_back_color: background_normal
+      key_text_color: text_normal
+      long_click: \
+    - click: keyboard_default
+    - click: 0
+    - click: .
+      key_back_color: background_normal
+      key_text_color: text_normal
+    - click: return
+      key_back_color: background_enter
+      key_text_color: text_enter
+    name: 数字
+    width: 20
+  snow_default:
+    ascii_mode: 0
+    author: ' '
+    key_symbol_offset_x: 14
+    keys:
+    - click: q
+      long_click: '`'
+      swipe_down: home
+      swipe_up: '`'
+    - click: w
+      long_click: '{'
+      swipe_up: '{'
+    - click: e
+      long_click: '}'
+      swipe_up: '}'
+    - click: r
+      long_click: '['
+      swipe_up: '['
+    - click: t
+      long_click: ']'
+      swipe_up: ']'
+    - click: y
+      long_click: '%'
+      swipe_up: '%'
+    - click: u
+      long_click: =
+      swipe_up: =
+    - click: i
+      long_click: '|'
+      swipe_down: lua_music
+      swipe_up: '|'
+    - click: o
+      long_click: ^
+      swipe_up: ^
+    - click: p
+      long_click: \
+      swipe_down: end
+      swipe_up: \
+    - width: 0
+    - click: a
+      long_click: '@'
+      swipe_down: select_all
+      swipe_up: '@'
+    - click: s
+      long_click: '#'
+      swipe_up: '#'
+    - click: d
+      long_click: '~'
+      swipe_down: date
+      swipe_up: '~'
+    - click: f
+      long_click: _
+      swipe_down: time
+      swipe_up: _
+    - click: g
+      long_click: '&'
+      swipe_down: keyboard_edit
+      swipe_up: '&'
+    - click: h
+      long_click: '-'
+      swipe_up: '-'
+    - click: j
+      long_click: +
+      swipe_down: liquid_keyboard_clipboard
+      swipe_up: +
+    - click: k
+      long_click: (
+      swipe_down: liquid_keyboard_emoji
+      swipe_up: (
+    - click: ;
+      long_click: )
+      swipe_down: '{hint_switch}{symbol_switch}'
+      swipe_up: )
+    - width: 0
+    - click: shift_L
+      composing: escape
+      double_click: shift_L2
+      hilited_key_back_color: background_enter
+      label_symbol: ' '
+      long_click: shift_L
+      swipe_down: menu
+      width: 15
+    - click: z
+      long_click: '*'
+      swipe_up: '*'
+    - click: x
+      long_click: '"'
+      swipe_down: cut
+      swipe_up: '"'
+    - click: c
+      long_click: ''''
+      swipe_down: copy
+      swipe_up: ''''
+    - click: v
+      long_click: $
+      swipe_down: paste
+      swipe_up: $
+    - click: b
+      long_click: ':'
+      swipe_up: ':'
+    - click: n
+      long_click: '!'
+      swipe_down: |2+
+
+      swipe_up: '!'
+    - click: m
+      long_click: '?'
+      swipe_down: ascii_mode_switch
+      swipe_up: '?'
+    - click: back_space_2
+      swipe_down: delete_line
+      swipe_left: Delete
+      swipe_up: clear_all
+      width: 15
+    - click: keyboard_number
+      composing: ''
+      swipe_down: theme_settings
+      swipe_up: liquid_keyboard_ascii
+      width: 15
+    - click: comma
+      composing: ''
+      label: ' ，'
+      swipe_up: zdic_search
+    - click: ascii_mode_switch
+      composing: ''
+      key_text_size: 20
+      label_symbol: ' '
+      long_click: liquid_keyboard_switch
+    - click: space
+      swipe_down: down
+      swipe_left: left
+      swipe_right: right
+      swipe_up: up
+      width: 30
+    - click: slash
+      composing: ''
+    - click: period
+      composing: ''
+      label: ' 。'
+    - click: return
+      composing: ''
+      key_back_color: background_enter
+      key_text_color: text_enter
+      label_symbol: ' '
+      popup:
+      - color_switch
+      - theme_settings
+      swipe_up: Mode_switch
+      width: 15
+    label_transform: uppercase
+    name: 26键
+    reset_ascii_mode: false
+    width: 10
+  snow_qingchun:
+    import_preset: snow_default
+  snow_qingyun:
+    import_preset: snow_default
+preset_keys:
+  ascii_mode_switch:
+    functional: false
+    send: Mode_switch
+    states:
+    - ic@web
+    - ic@web
+    toggle: ascii_mode
+  back_space:
+    functional: true
+    label: ⌫
+    repeatable: true
+    send: BackSpace
+  back_space_2:
+    functional: true
+    label: Rol
+    preview: ⌫
+    repeatable: true
+    send: BackSpace
+  candidate_1:
+    command: select_candidate
+    label: U
+    option: '1'
+    send: function
+  candidate_2:
+    command: select_candidate
+    label: Su
+    option: '2'
+    send: function
+  candidate_3:
+    command: select_candidate
+    label: Yun
+    option: '3'
+    send: function
+  candidate_4:
+    command: select_candidate
+    label: Fi
+    option: '4'
+    send: function
+  clear_all:
+    label: ⇤
+    text: '{Control+End}{Control+Shift+Home}{Delete}'
+  color_switch:
+    functional: false
+    label: 配色
+    send: PROG_RED
+  comma:
+    functional: true
+    label: ','
+    send: ','
+  copy:
+    functional: false
+    label: 复制
+    send: Control+c
+  ctrl_left:
+    functional: false
+    label: ⇦
+    repeatable: true
+    send: Control+Left
+  ctrl_right:
+    functional: false
+    label: ⇨
+    repeatable: true
+    send: Control+Right
+  cut:
+    functional: false
+    label: 剪切
+    send: Control+x
+  date:
+    command: date
+    label: 日期
+    option: yyyy-MM-dd
+    send: function
+  delete_line:
+    functional: false
+    label: Del↔
+    text: '{End}{Shift+Home}{Delete}'
+  down:
+    functional: false
+    label: ↓
+    repeatable: true
+    send: Down
+  end:
+    functional: false
+    label: 行尾
+    send: End
+  escape:
+    functional: false
+    label: Esc
+    send: Escape
+  hide:
+    functional: false
+    label: 隐藏
+    send: BACK
+  hint_switch:
+    send: Mode_switch
+    states:
+    - ≑
+    - ≟
+    toggle: _hide_key_hint
+  home:
+    functional: false
+    label: 行首
+    send: Home
+  keyboard_default:
+    functional: true
+    label: 返回
+    select: default
+    send: Eisu_toggle
+  keyboard_edit:
+    functional: false
+    label: edit
+    select: edit
+    send: Eisu_toggle
+  keyboard_number:
+    functional: true
+    label: ?123
+    select: number
+    send: Eisu_toggle
+  left:
+    functional: false
+    label: ←
+    repeatable: true
+    send: Left
+  liquid_back_space:
+    functional: true
+    label: ⌫
+    repeatable: true
+    send: BackSpace
+  liquid_keyboard_ascii:
+    command: liquid_keyboard
+    functional: true
+    label: 符号
+    option: 英文
+    send: function
+  liquid_keyboard_clipboard:
+    command: liquid_keyboard
+    label: 剪贴
+    option: 剪贴
+    send: function
+  liquid_keyboard_emoji:
+    command: liquid_keyboard
+    label: 🙂
+    option: emoji
+    send: function
+  liquid_keyboard_exit:
+    command: liquid_keyboard
+    label: 返回
+    option: '-1'
+    send: function
+  liquid_keyboard_switch:
+    command: liquid_keyboard
+    label: 更多
+    option: 特殊
+    send: function
+  liquid_keyboard_tabs:
+    command: liquid_keyboard
+    label: 更多
+    option: 更多
+    send: function
+  liquid_return:
+    functional: true
+    label: 空格
+    repeatable: false
+    send: space
+  liquid_space:
+    label: 回车
+    send: Return
+  lua_music:
+    command: lua
+    label: music
+    option: music.lua
+  menu:
+    functional: false
+    label: 菜单
+    send: Menu
+  menu_keyboard:
+    command: menu_keyboard
+    label: 菜单
+    send: function
+  page_down:
+    functional: false
+    label: 下页
+    send: Page_Down
+  page_up:
+    functional: false
+    label: 上页
+    send: Page_Up
+  paste:
+    functional: false
+    label: 粘贴
+    send: Control+v
+  period:
+    functional: true
+    label: .
+    send: .
+    slide_delete: true
+  redo:
+    functional: false
+    label: 重做
+    send: Control+Shift+z
+  return:
+    functional: true
+    label: Enter
+    preview: ↵
+    send: Return
+  right:
+    functional: false
+    label: →
+    repeatable: true
+    send: Right
+  select_all:
+    functional: false
+    label: 全选
+    send: Control+a
+  settings:
+    functional: false
+    label: 设置
+    send: SETTINGS
+  shift_L:
+    functional: true
+    label: Shift
+    preview: ⇪
+    send: Shift_L
+  shift_L2:
+    functional: true
+    label: Shift
+    preview: ⇪
+    send: Shift_L
+    shift_lock: click
+  slash:
+    functional: false
+    label: /
+    send: /
+  space:
+    functional: false
+    label: _______
+    preview: ' '
+    repeatable: false
+    send: space
+    slide_cursor: true
+  space_2:
+    functional: true
+    label: ⎵
+    repeatable: false
+    send: space
+  symbol_switch:
+    send: Mode_switch
+    states:
+    - ☰
+    - ☱
+    toggle: _hide_key_symbol
+  theme_settings:
+    functional: false
+    label: 主题
+    option: theme
+    send: SETTINGS
+  time:
+    command: date
+    label: 時間
+    option: HH:mm:ss
+    send: function
+  undo:
+    functional: false
+    label: 撤销
+    send: Control+z
+  up:
+    functional: false
+    label: ↑
+    repeatable: true
+    send: Up
+  zdic_search:
+    command: web_search
+    functional: false
+    label: 汉典
+    option: https://www.zdic.net/hans/%3$s
+    send: function
 style:
-  # 功能
   auto_caps: false
-  proximity_correction: true
-  reset_ascii_mode: false
-  candidate_use_cursor: true
-  comment_on_top: false
-  horizontal: false
-  # 字体
-  candidate_font: han.ttf
-  comment_font:
-    - FiraCode-Regular.ttf
-    - ChaiPUA-0.2.7-snow.ttf
-  hanb_font: hanb.ttf
-  key_font: key.ttf
-  label_font: label.ttf
-  latin_font: latin.ttf
-  popup_font: popup.ttf
-  symbol_font: symbol.ttf
-  text_font: latin.ttf
-  # 尺寸
+  candidate_font:
+  - han.ttf
   candidate_padding: 16
   candidate_spacing: 1
   candidate_text_size: 16
+  candidate_use_cursor: true
   candidate_view_height: 28
+  comment_font:
+  - FiraCode-Regular.ttf
+  - ChaiPUA-0.2.7-snow.ttf
   comment_height: 14
+  comment_on_top: false
   comment_text_size: 12
-  key_height: 45 # 42
-  key_long_text_size: 16
-  key_text_size: 20
-  key_width: 10.0
-  keyboard_height: 250 # 270
-  keyboard_height_land: 200
-  label_text_size: 16
-  popup_width: 38
-  popup_height: 48
-  popup_bottom_margin: 68
-  popup_key_height: 48
-  popup_text_size: 23
-  symbol_text_size: 10
-  text_size: 14
-  vertical_correction: 0
-  # 边距
-  keyboard_padding: 3
-  keyboard_padding_bottom: 0
-  horizontal_gap: 5
-  vertical_gap: 8
-  # 圆角
-  round_corner: 4
-  shadow_radius: 0.0
-  # Enter 键标签
   enter_label_mode: 0
   enter_labels:
-    go: 前往
+    default: Enter
     done: 完成
+    go: 前往
     next: 下个
     pre: 上个
     search: 搜索
     send: 发送
-    default: Enter
-  # 字符偏移
-  key_symbol_offset_y: 1
+  hanb_font:
+  - hanb.ttf
+  horizontal: false
+  horizontal_gap: 5
+  key_font:
+  - key.ttf
+  key_height: 45
   key_hint_offset_y: -1
-
-preedit:
-  horizontal_padding: 8
-  alpha: 0.8
-  top_end_radius: 0
-  foreground:
-    font_size: 16
-
+  key_long_text_size: 16
+  key_symbol_offset_y: 1
+  key_text_size: 20
+  key_width: 10
+  keyboard_height: 250
+  keyboard_height_land: 200
+  keyboard_padding: 3
+  keyboard_padding_bottom: 0
+  label_font:
+  - label.ttf
+  label_text_size: 16
+  latin_font:
+  - latin.ttf
+  popup_bottom_margin: 68
+  popup_font:
+  - popup.ttf
+  popup_height: 48
+  popup_key_height: 48
+  popup_text_size: 23
+  popup_width: 38
+  proximity_correction: true
+  reset_ascii_mode: false
+  round_corner: 4
+  shadow_radius: 0
+  symbol_font:
+  - symbol.ttf
+  symbol_text_size: 10
+  text_font:
+  - latin.ttf
+  text_size: 14
+  vertical_correction: 0
+  vertical_gap: 8
+tool_bar:
+  button_font:
+  - iconfont.ttf
+  button_spacing: 13
+  buttons:
+  - action: liquid_keyboard_emoji
+    foreground:
+      style: ic@emoticon_cry_outline
+  - action: keyboard_edit
+    foreground:
+      style: ic@cursor_move
+  - action: liquid_keyboard_clipboard
+    foreground:
+      style: ic@clipboard_text_outline
+  - action: redo
+    foreground:
+      style: ic@redo
+  - action: undo
+    foreground:
+      style: ic@undo
+  - action: right
+    foreground:
+      padding: 14
+      style: ic@arrow-right
+  - action: left
+    foreground:
+      padding: 14
+      style: ic@arrow-left
+  clipboard:
+    action: liquid_keyboard_clipboard
+    foreground:
+      style: ic@clipboard_text_outline
+  edit:
+    action: keyboard_edit
+    foreground:
+      style: ic@cursor_move
+  emoji:
+    action: liquid_keyboard_emoji
+    foreground:
+      style: ic@emoticon_cry_outline
+  hide_button:
+    action: hide
+    foreground:
+      style: ic@keyboard_close
+  left:
+    action: left
+    foreground:
+      padding: 14
+      style: ic@arrow-left
+  primary_button:
+    action: menu_keyboard
+    foreground:
+      padding: 8
+      style: hanamaru/yuki.png
+  redo:
+    action: redo
+    foreground:
+      style: ic@redo
+  right:
+    action: right
+    foreground:
+      padding: 14
+      style: ic@arrow-right
+  undo:
+    action: undo
+    foreground:
+      style: ic@undo
 window:
-  insets:
-    vertical: 4
-    horizontal: 4
-  item_padding:
-    vertical: 0
-    horizontal: 4
-  foreground:
-    label_font_size: 16
-    text_font_size: 16
-    comment_font_size: 14
-  # NOTE: 非主分支参数
   candidate_format:
-    label:
-      format: "[%s]"
-      after: " "
-      visible: true
     candidate:
-      format: "%s"
-      after: " · "
+      after: ' · '
+      format: '%s'
       visible: true
     comment:
-      format: "%s"
-      after: ""
+      after: ''
+      format: '%s'
       visible: true
-
-fallback_colors:
-  candidate_text_color: text_color
-  background_normal: off_key_back_color
-  text_normal: off_key_text_color
-  background_enter: off_key_back_color
-  text_enter: off_key_text_color
-
-preset_color_schemes:
-  tongwenfeng:
-    name: "标准配色"
-    author: "风花絮"
-    dark_scheme: steam
-
-    back_color: 0xFFFFFFFF
-    border_color: 0xFFFFFFFF
-    keyboard_back_color: 0xFFE1E3E7
-    text_color: 0xFF3266A0
-
-    candidate_text_color: 0xFF000000
-    comment_text_color: 0xFF838383
-    label_color: 0xFF3266A0
-    key_text_color: 0xFF000000
-    key_symbol_color: 0xFF838383
-    off_key_text_color: 0xFFFFFFFF
-    preview_text_color: 0xFF3266A0
-
-    hilited_text_color: 0xFF000000
-    hilited_back_color: 0xFFFFFFFF
-    hilited_candidate_text_color: 0xFF3266A0
-    hilited_candidate_back_color: 0xFFFFFFFF
-    hilited_comment_text_color: 0xFF000000
-    hilited_key_text_color: 0xFF000000
-    hilited_key_back_color: 0xFF3266A0
-    hilited_key_symbol_color: 0xFFFFFFFF
-    hilited_off_key_text_color: 0xFF000000
-    hilited_off_key_back_color: 0xFFFFFFFF
-
-    text_back_color: 0xFFFFFFFF
-    key_back_color: 0xFFFFFFFF
-    off_key_back_color: 0xFFACB2C2
-    preview_back_color: 0xFFACB2C2
-    candidate_separator_color: 0xFFFFFFFF
-
-    background_normal: 0xFFACB2C2
-    background_key: 0xFFFFFFFF
-    background_enter: 0xFF3266A0
-    text_enter: 0xFFFFFFFF
-
-  steam:
-    name: "Steam"
-    author: "Patricivs <ipatrickmac@me.com>"
-    text_color: 0xFF528CCD
-    back_color: 0xFF171614
-    border_color: 0xFF383635
-    label_color: 0xFFFFFFFF
-    hilited_text_color: 0xFFD1CFC9
-    hilited_back_color: 0xFF171614
-    candidate_text_color: 0xFFFFFFFF
-    comment_text_color: 0xFFA9A7A7
-    hilited_candidate_text_color: 0xFFFFFFFF
-    hilited_comment_text_color: 0xFFA9A7A7
-    hilited_candidate_back_color: 0xFF314259
-
-  default:
-    # material_light:
-    name: "Material Design Light"
-    author: "Enoa"
-    dark_scheme: fcitx5_mone_dark
-    border_color: 0xFFF5F0F4
-    text_color: 0xFF2E2E2E
-    text_back_color: 0xFFFFFFFF
-    hilited_back_color: 0x00000000
-    candidate_back_color: 0xFFF5F0F4
-    comment_text_color: 0xFF78808D
-    hilited_candidate_text_color: 0xFF3B00FF
-    hilited_candidate_back_color: 0x00000000
-    key_text_color: 0xFF2E2E2E
-    key_back_color: 0xFFFFFFFF
-    hilited_key_text_color: 0xFFFFFFFF
-    hilited_key_back_color: 0xFF6750A4
-    keyboard_back_color: 0xFFF5F0F4
-    off_key_back_color: 0xFFEADDFF
-    hilited_off_key_back_color: 0xFF6750A4
-    hilited_off_key_text_color: 0xFFFFFFFF
-    on_key_back_color: 0xFF6750A4
-    hilited_on_key_back_color: 0xFF6750A4
-    on_key_text_color: 0xFFFFFFFF
-    hilited_on_key_text_color: 0xFFFFFFFF
-    candidate_separator_color: 0xFFE4D9E0
-    popup_back_color: 0xFFF5F0F4
-
-  material_dark:
-    name: "Material Design Dark"
-    author: "Enoa"
-    border_color: 0xFF1B1A1F
-    text_color: 0xFFB0C6FF
-    text_back_color: 0xFF1B1A1F
-    hilited_text_color: 0xFFFFFFFF
-    hilited_back_color: 0xFFB0C6FF
-    comment_text_color: 0xFF838383
-    hilited_candidate_text_color: 0xFF000000
-    hilited_candidate_back_color: 0xFFB0C6FF
-    hilited_comment_text_color: 0xFF838383
-    key_text_color: 0xFFFFFFFF
-    key_back_color: 0xFF2F2E33
-    hilited_key_text_color: 0xFF000000
-    hilited_key_back_color: 0xFFB0C6FF
-    keyboard_back_color: 0xFF1B1A1F
-    off_key_back_color: 0xFF46474B
-    hilited_off_key_back_color: 0xFFB0C6FF
-    off_key_text_color: 0xFFFFFFFF
-    hilited_off_key_text_color: 0xFF000000
-    on_key_back_color: 0xFFB0C6FF
-    hilited_on_key_back_color: 0xFFB0C6FF
-    on_key_text_color: 0xFF000000
-    hilited_on_key_text_color: 0xFF000000
-    background_enter: 0xFFB0C6FF
-    text_enter: 0xFF000000
-
-  fcitx5_mone_dark:
-    name: "Fcitx5 Monet Dark"
-    author: "Enoa"
-
-    border_color: 0xFF1C1F29
-    text_color: 0xFFB3C5FF
-    text_back_color: 0xFF1C1F29
-    hilited_text_color: 0xFFE0E2EF
-    hilited_back_color: 0x00000000
-    comment_text_color: 0xFFC3C6D6
-    candidate_text_color: 0xFFE0E2EF
-    hilited_candidate_text_color: 0xFFE0E2EF
-    hilited_candidate_back_color: 0x00000000
-    hilited_comment_text_color: 0xFFC3C6D6
-    key_text_color: 0xFFE0E2EF
-    key_back_color: 0xFF363943
-    hilited_key_text_color: 0xFF002B75
-    hilited_key_back_color: 0xFFB3C5FF
-    keyboard_back_color: 0xFF1C1F29
-    off_key_back_color: 0xFF444465
-    hilited_off_key_back_color: 0xFFB3C5FF
-    off_key_text_color: 0xFFE0E2EF
-    hilited_off_key_text_color: 0xFF002B75
-    on_key_back_color: 0xFFB3C5FF
-    hilited_on_key_back_color: 0xFFB3C5FF
-    on_key_text_color: 0xFF002B75
-    hilited_on_key_text_color: 0xFF002B75
-    background_enter: 0xFFB3C5FF
-    text_enter: 0xFF002B75
-    candidate_separator_color: 0xFF363943
-    popup_back_color: 0xFF1C1F29
-    hilited_popup_text_color: 0xFF1C1F29
-
-liquid_keyboard:
-  author: "tumuyan"
-  row: 6
-  row_land: 5
-  key_height: 40
-  key_height_land: 40
-  single_width: 60
-  vertical_gap: 8
-  margin_x: 2
-  fixed_key_bar:
-    position: right
-    keys:
-      - liquid_keyboard_exit
-      - liquid_space
-      - liquid_back_space
-      - liquid_return
-      - liquid_keyboard_clipboard
-      - liquid_keyboard_tabs
-  keyboards: [emoji, math, ascii, cn, history, clipboard, collection, draft, symbollist, list, ids, symbol, tabs, pinyin, script_symbols, jp, grease, rusa, korea, lation, yinbiao, unit, yanwenzi, combing, emoji_full, candidate] #tab列表
-  tabs:
-    name: 更多
-    type: TABS
-  candidate:
-    name: 候选
-    type: CANDIDATE
-  history:
-    name: 常用
-    type: HISTORY
-  emoji:
-    type: SINGLE
-    keys: "🤓😡🤡😋😅😭🤔😆🤣😂😎👍🐍🦌😁😇🐴😴😨😰🧐🤬"
-  emoji_full:
-    type: SINGLE
-    name: 全emoji
-    keys: "😀😃😄😁😆😅🤣😂🙂🙃🫠😉😊😇🥰😍🤩😘😗☺😚😙🥲😋😛😜🤪😝🤑🤗🤭🫢🫣🤫🤔🫡🤐🤨😐😑😶🫥😏😒🙄😬🤥😌😔😪🤤😴😷🤒🤕🤢🤮🤧🥵🥶🥴😵🤯🤠🥳🥸😎🤓🧐😕🫤😟🙁☹😮😯😲😳🥺🥹😦😧😨😰😥😢😭😱😖😣😞😓😩😫🥱😤😡😠🤬😈👿💀☠💩🤡👹👺👻👽👾🤖😺😸😹😻😼😽🙀😿😾🙈🙉🙊💌💘💝💖💗💓💞💕💟❣💔❤🧡💛💚💙💜🤎🖤🤍💋💯💢💥💫💦💨🕳💬🗨🗯💭💤👋🤚🖐✋🖖🫱🫲🫳🫴👌🤌🤏✌🤞🫰🤟🤘🤙👈👉👆🖕👇☝🫵👍👎✊👊🤛🤜👏🙌🫶👐🤲🤝🙏✍💅🤳💪🦾🦿🦵🦶👂🦻👃🧠🫀🫁🦷🦴👀👁👅👄🫦👶🧒👦👧🧑👱👨🧔👩🧓👴👵🙍🙎🙅🙆💁🙋🧏🙇🤦🤷👮🕵💂🥷👷🫅🤴👸👳👲🧕🤵👰🤰🫃🫄🤱👼🎅🤶🦸🦹🧙🧚🧛🧜🧝🧞🧟🧌💆💇🚶🧍🧎🏃💃🕺🕴👯🧖🧗🤺🏇⛷🏂🏌🏄🚣🏊⛹🏋🚴🚵🤸🤼🤽🤾🤹🧘🛀🛌👭👫👬💏💑👪🗣👤👥🫂👣🏻🏼🏽🏾🏿🦰🦱🦳🦲🐵🐒🦍🦧🐶🐕🦮🐩🐺🦊🦝🐱🐈🦁🐯🐅🐆🐴🐎🦄🦓🦌🦬🐮🐂🐃🐄🐷🐖🐗🐽🐏🐑🐐🐪🐫🦙🦒🐘🦣🦏🦛🐭🐁🐀🐹🐰🐇🐿🦫🦔🦇🐻🐨🐼🦥🦦🦨🦘🦡🐾🦃🐔🐓🐣🐤🐥🐦🐧🕊🦅🦆🦢🦉🦤🪶🦩🦚🦜🐸🐊🐢🦎🐍🐲🐉🦕🦖🐳🐋🐬🦭🐟🐠🐡🦈🐙🐚🪸🐌🦋🐛🐜🐝🪲🐞🦗🪳🕷🕸🦂🦟🪰🪱🦠💐🌸💮🪷🏵🌹🥀🌺🌻🌼🌷🌱🪴🌲🌳🌴🌵🌾🌿☘🍀🍁🍂🍃🪹🪺🍄🍇🍈🍉🍊🍋🍌🍍🥭🍎🍏🍐🍑🍒🍓🫐🥝🍅🫒🥥🥑🍆🥔🥕🌽🌶🫑🥒🥬🥦🧄🧅🥜🫘🌰🍞🥐🥖🫓🥨🥯🥞🧇🧀🍖🍗🥩🥓🍔🍟🍕🌭🥪🌮🌯🫔🥙🧆🥚🍳🥘🍲🫕🥣🥗🍿🧈🧂🥫🍱🍘🍙🍚🍛🍜🍝🍠🍢🍣🍤🍥🥮🍡🥟🥠🥡🦀🦞🦐🦑🦪🍦🍧🍨🍩🍪🎂🍰🧁🥧🍫🍬🍭🍮🍯🍼🥛☕🫖🍵🍶🍾🍷🍸🍹🍺🍻🥂🥃🫗🥤🧋🧃🧉🧊🥢🍽🍴🥄🔪🫙🏺🌍🌎🌏🌐🗺🗾🧭🏔⛰🌋🗻🏕🏖🏜🏝🏞🏟🏛🏗🧱🪨🪵🛖🏘🏚🏠🏡🏢🏣🏤🏥🏦🏨🏩🏪🏫🏬🏭🏯🏰💒🗼🗽⛪🕌🛕🕍⛩🕋⛲⛺🌁🌃🏙🌄🌅🌆🌇🌉♨🎠🛝🎡🎢💈🎪🚂🚃🚄🚅🚆🚇🚈🚉🚊🚝🚞🚋🚌🚍🚎🚐🚑🚒🚓🚔🚕🚖🚗🚘🚙🛻🚚🚛🚜🏎🏍🛵🦽🦼🛺🚲🛴🛹🛼🚏🛣🛤🛢⛽🛞🚨🚥🚦🛑🚧⚓🛟⛵🛶🚤🛳⛴🛥🚢✈🛩🛫🛬🪂💺🚁🚟🚠🚡🛰🚀🛸🛎🧳⌛⏳⌚⏰⏱⏲🕰🕛🕧🕐🕜🕑🕝🕒🕞🕓🕟🕔🕠🕕🕡🕖🕢🕗🕣🕘🕤🕙🕥🕚🕦🌑🌒🌓🌔🌕🌖🌗🌘🌙🌚🌛🌜🌡☀🌝🌞🪐⭐🌟🌠🌌☁⛅⛈🌤🌥🌦🌧🌨🌩🌪🌫🌬🌀🌈🌂☂☔⛱⚡❄☃⛄☄🔥💧🌊🎃🎄🎆🎇🧨✨🎈🎉🎊🎋🎍🎎🎏🎐🎑🧧🎀🎁🎗🎟🎫🎖🏆🏅🥇🥈🥉⚽⚾🥎🏀🏐🏈🏉🎾🥏🎳🏏🏑🏒🥍🏓🏸🥊🥋🥅⛳⛸🎣🤿🎽🎿🛷🥌🎯🪀🪁🎱🔮🪄🎮🕹🎰🎲🧩🧸🪅🪩🪆♠♥♦♣♟🃏🀄🎴🔫🎭🖼🎨🧵🪡🧶🪢👓🕶🥽🥼🦺👔👕👖🧣🧤🧥🧦👗👘🥻🩱🩲🩳👙👚👛👜👝🛍🎒🩴👞👟🥾🥿👠👡🩰👢👑👒🎩🎓🧢🪖⛑📿💄💍💎🔇🔈🔉🔊📢📣📯🔔🔕🎼🎵🎶🎙🎚🎛🎤🎧📻🎷🪗🎸🎹🎺🎻🪕🥁🪘📱📲☎📞📟📠🔋🪫🔌💻🖥🖨⌨🖱🖲💽💾💿📀🧮🎥🎞📽🎬📺📷📸📹📼🔍🔎🕯💡🔦🏮🪔📔📕📖📗📘📙📚📓📒📃📜📄📰🗞📑🔖🏷💰🪙💴💵💶💷💸💳🧾💹✉📧📨📩📤📥📦📫📪📬📭📮🗳✏✒🖋🖊🖌🖍📝💼📁📂🗂📅📆🗒🗓📇📈📉📊📋📌📍📎🖇📏📐✂🗃🗄🗑🔒🔓🔏🔐🔑🗝💣🔨🪓⛏⚒🛠🗡⚔🪃🏹🛡🪚🔧🪛🔩⚙🗜⚖🦯🔗⛓🪝🧰🧲🪜⚗🧪🧫🧬🔬🔭📡💉🩸💊🩹🩼🩺🩻🚪🛗🪞🪟🛏🛋🪑🚽🪠🚿🛁🪤🪒🧴🧷🧹🧺🧻🪣🧼🫧🪥🧽🧯🛒🧿🪬🚬⚰🪦⚱🗿🪧🪪🏧🚮🚰♿🚹🚺🚻🚼🚾🛂🛃🛄🛅⚠🚸⛔🚫🚳🚭🚯🚱🚷📵🔞☢☣⬆↗➡↘⬇↙⬅↖↕↔↩↪⤴⤵🔃🔄🔙🔚🔛🔜🔝🛐⚛🕉✡☸☯✝☦☪☮🕎🔯♈♉♊♋♌♍♎♏♐♑♒♓⛎🔀🔁🔂▶⏩⏭⏯◀⏪⏮🔼⏫🔽⏬⏸⏹⏺⏏🎦🔅🔆📶📳📴♀♂⚧✖➕➖➗🟰♾‼⁉❓❔❕❗〰💱💲⚕♻⚜🔱📛🔰⭕✅☑✔❌❎➰➿〽✳✴❇©®™🔟🔠🔡🔢🔣🔤🅰🆎🅱🆑🆒🆓ℹ🆔Ⓜ🆕🆖🅾🆗🅿🆘🆙🆚🈁🈂🈷🈶🈯🉐🈹🈚🈲🉑🈸🈴🈳㊗㊙🈺🈵🔴🟠🟡🟢🔵🟣🟤⚫⚪🟥🟧🟨🟩🟦🟪🟫⬛⬜◼◻◾◽▪▫🔶🔷🔸🔹🔺🔻💠🔘🔳🔲🏁🚩🎌🏴🏳"
-  clipboard:
-    type: CLIPBOARD
-    name: 剪贴
-  collection:
-    type: COLLECTION
-    name: 收藏
-  draft:
-    type: DRAFT
-    name: 草稿
-  math:
-    type: SINGLE
-    name: 数学
-    keys: "≈＝≠≌<>≤≥≡()[]{}-+±×*/÷&∥%‰‱°′″∫∮∯∬∭∰∞∑∧∏∈∵∴⊥∝∨∪•√〒∝∽∈∩∧⊙⌒∥∟∣∂∆∞≌∉∪∨⊕⊿⊥∠∫∬∭" #tab中的按键列表
-  cn:
-    type: SINGLE
-    name: 中文
-    keys:
-      - ，
-      - 。
-      - ？
-      - ！
-      - ：
-      - 、
-      - “
-      - ”
-      - ‘
-      - ···
-      - ……
-      - {click: "-"}
-      - {click: "——", label: "破折"}
-      - {click: ""} # 内容为空可以强制令键盘从此处新起一行 (NOTE: 某次重构后失效)
-      - （
-      - ）
-      - 【
-      - 】
-      - 《
-      - 》
-      - ［
-      - ］
-      - ｛
-      - ｝
-      - 「
-      - 」
-      - 『
-      - 』
-      - ～
-  symbol:
-    name: 特殊
-    type: SINGLE
-    keys: "△▽○◇□☆▲▼●◆■★▷◁▶◀♻♲†⚝✡⚹✦✸✹￼�×⌫☑☒✅❎✔✘✓✗☀☼☽☾◑◐㏂㏘☭♀♂☹☻☠☜☝☞☚☟☛▪•‥…∷※♩♪♫♬§°♭♯♮‖¶№◎¤۞℗®©卍卐℡™㏇Φ⇦⇧⇨⇩⇪↖↑↗←↔→↙↓↘⇄⇅⇆⇤↩⇥▸◂▴▾◤◥◣◢㊤㊧㊥㊨㊦❏❐◲〼▢▣↶✁↷✍⏍ϟ📝✎✆☱☰☴⚿⛮⚙☲☯☵⛶☩☐☳☷☶💬🗨⟲ღ✈☂🎤🌐🔍"
-  unit:
-    name: 单位
-    type: SINGLE
-    keys: "℃¥$€฿￡㎡m³℉￥£￠₠¹²³⁴⁵ⁿ⁶⁷⁸⁹⁰ˣ⁺⁻⁼⁽⁾½⅓¼⅔¾₁₂₃₄₅ₙ₆₇₈₉₀ₓ₊₋₌₍₎℅"
-  list:
-    name: 列表
-    type: SINGLE
-    keys: "①②③④⑤⑥⑦⑧⑨⑩⒈⒉⒊⒋⒌⒍⒎⒏⒐⒑⒒⒓⒔⒕⒖⒗⒘⒙⒚⒛⑴⑵⑶⑷⑸⑹⑺⑻⑼⑽⑾⑿⒀⒁⒂⒃⒄⒅⒆⒇㈠㈡㈢㈣㈤㈥㈦㈧㈨㈩➊➋➌➍➎➏➐➑➒➓㊀㊁㊂㊃㊄㊅㊆㊇㊈㊉ⅰⅱⅲⅳⅴⅵⅶⅷⅸⅹⅠⅡⅢⅣⅤⅥⅦⅧⅨⅩ"
-  pinyin:
-    name: 拼音
-    type: SINGLE
-    keys: "āáǎàōóēéěèǒòīíǐìūúǖǘǚǜǔùêüńňㄚㄛㄜㄧㄨㄩㄝㄞㄟㄠㄡㄢㄣㄤㄥㄦㄅㄆㄇㄈㄉㄊㄋㄌㄍㄎㄏㄐㄑㄒㄓㄔㄕㄖㄗㄘㄙ"
-  script_symbols:
-    name: 𝒶𝒜
-    type: SINGLE
-    keys: "𝒶𝒷𝒸𝒹ℯ𝒻ℊ𝒽𝒾𝒿𝓀𝓁𝓂𝓃ℴ𝓅𝓆𝓇𝓈𝓉𝓊𝓋𝓌𝓍𝓎𝓏𝒜ℬ𝒞𝒟ℰℱ𝒢ℋℐ𝒥𝒦ℒℳ𝒩𝒪𝒫𝒬ℛ𝒮𝒯𝒰𝒱𝒲𝒳𝒴𝒵"
-  grease:
-    type: SINGLE
-    name: 希腊
-    keys: "ΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡΣΤΥΦΧΨΩαβγδεζηθικλμνξοπρστυφχψω"
-  rusa:
-    name: 俄语
-    type: SINGLE
-    keys: "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя"
-  lation:
-    name: 拉丁
-    type: SINGLE
-    keys: "ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖØÙÚÛÜÝÞŠŸŒàáâãäåæçèéêëìíîïðñòóõôöøùúûüýþšÿœ"
-  korea:
-    type: SINGLE
-    name: "韩文"
-    keys: "dㅏㅑㅓㅕㅗㅛㅜㅠㅡㅣㅐㅒㅔㅖㅘㅙㅚㅝㅞㅟㅢㄱㄴㄷㄹㅁㅂㅅㅇㅈㅊㅋㅌㅍㅎㄲㄸㅚㅆㅉ㉠㉡㉢㉣㉤㉥㉦㉧㉨㉩㉪㉫㉬㉭㉮㉯㉰㉱㉲㉳㉴㉵㉶㉷㉸㉹㉺㉻㈀㈁㈂㈃㈄㈅㈆㈇㈈㈉㈊㈋㈌㈍㈎㈏㈐㈑㈒㈓㈔㈕㈖㈗㈘㈙㈚㈛"
-  yinbiao:
-    type: SINGLE
-    name: "音标"
-    keys: ["a:", "ɔ:", "ɜː", "i:", "u:", "ʌ", "ɒ", "ə", "ɪ", "ʊ", "e", "æ", "eɪ", "aɪ", "ɔɪ", "ɪə", "eə", "ʊə", "əʊ", "aʊ", "p", "t", "k", "f", "θ", "s", "b", "d", "g", "v", "ð", "z", "ʃ", "h", "ts", "tʃ", "j", "tr", "ʒ", "r", "dz", "dʒ", "dr", "w", "m", "n", "ŋ", "l"]
-  yanwenzi:
-    type: VAR_LENGTH
-    name: "颜文字"
-    keys: ["⎛⎝≥⏝⏝≤⎠⎞", "^_^", "^ω^", "^o^", "~\\(≧▽≦)/~", "*^_^*", "↖(^ω^)↗", "(^o^)／", "(=^▽^=)", "=^_^=", "(*^ω^*)", "٩(๑^o^๑)۶", "o(￣▽￣)o", "Y(^_^)Y", "٩( 'ω' )و", "╰(*´︶`*)╯", "*罒▽罒*", "ヾ ^_^♪", "=￣ω￣=", "︿(￣︶￣)︿", "(´▽｀)ノ♪", "乁( ˙ ω˙乁)", "✧*｡٩(ˊωˋ*)و✧*｡", "～(￣▽￣～)(～￣▽￣)～", "QwQ", "(●—●)", "(๑• . •๑)", "ヾ(≧O≦)〃嗷~", "罒ω罒", "(｡ì _ í｡)", "(๑•ี_เ•ี๑)", "ㄟ(≧◇≦)ㄏ", "(*/ω＼*)", "●▽●", "٩(๑òωó๑)۶", "✺◟(∗❛ัᴗ❛ั∗)◞✺", "( σ'ω')σ", "♡＾▽＾♡", "(๑•̀ㅂ•́)و✧", "(ง •̀_•́)ง", "(｡･ω･｡)ﾉ♡", "(☆_☆)", "(๑°3°๑)", "_(•̀ω•́ 」∠)_", "♪～(´ε｀　)", "～(^з^)-☆", "(´∀｀)♡", "ლ(´ڡ`ლ)", "(＞﹏＜)", "T_T", "⊙︿⊙", "〒▽〒", "⊙﹏⊙", "π_π", "(｡•́︿•̀｡)", "(ToT)/~~~", "╯﹏╰", "ಥ_ಥ", "(╥╯^╰╥)", "(〃′o`)", "●﹏●", "( •̥́ ˍ •̀ू )", "(つд⊂)", "心塞(´-ωก`)", "(╥﹏╥)", "┭┮﹏┭┮", "（；´д｀）ゞ", "(´;︵;`)", "(。﹏。)", "┗( T﹏T )┛", "QAQ", "ヘ(_ _ヘ)", "╰（‵□′）╯", "(*￣︿￣)", ">o<", "(-`ェ´-怒)", "ヽ(‘⌒´メ)ノ", "(*｀Ω´*)v", "(｡•ˇ‸ˇ•｡)", "(怒｀Д´怒)", "٩(๑`^´๑)۶", "(;｀O´)o", "╰_╯", "(#｀皿´)<怒怒怒!!!", "<(｀^´)>", "（｀Δ´）！", "ψ(｀∇´)ψ", "(；′⌒`)", "s(・｀ヘ´・;)ゞ", "(▼皿▼#)", "￣へ￣", "←_←", "（╯‵□′）╯︵┴─┴", "（▼へ▼メ）", "☄ฺ(◣д◢)☄ฺ", "→_→", "⊙_⊙", "d(ŐдŐ๑)", "Σ( ° △ °|||)︴", "(((φ(◎ロ◎;)φ)))", "⊙▽⊙", "(๑ŐдŐ)b", "╭(°A°`)╮", "(๑òᆺó๑)", "⊙ω⊙", "Σ(っ °Д °;)っ", " (ﾟДﾟ≡ﾟдﾟ)!?", "( *・ω・)✄╰ひ╯", "(⊙x⊙;)", "┌(。Д。)┐", "(°ー°〃)", "︽⊙_⊙︽", "!!!∑(°Д°ノ)ノ", "(๑ŐдŐ)b☆d(ŐдŐ๑)", "Σ⊙▃⊙川", "ヽ(*。>Д<)o゜", "━((*′д｀)爻(′д｀*))━!!!!", "=_=", "╮(╯_╰)╭", "（︶︿︶）", "_(:з」∠)_", "@_@", "╮(╯▽╰)╭", "(＠￣ー￣＠)", "_(:3」∠❀)_", "눈_눈", "╭(╯ε╰)╮", "(ー_ー)!!", "_(:D)∠)_", "o_O", "╭(╯^╰)╮", "(；一_一)", "´_>`", "-_-#", "┑(￣Д ￣)┍", "≡￣﹏￣≡", "○|￣|_", "-_-||", "ㄟ( ▔, ▔ )ㄏ", "( ＿ ＿)ノ｜壁", "▄█▀█●"]
-  combing:
-    type: SINGLE
-    name: "组合"
-    keys: ["⃢", "꯭", "̣", "̲"]
-  ascii:
-    type: SINGLE
-    name: 英文
-    keys: ",.?!:;/\\|*-+=^$`'\"^~@#%&()[]{}_"
-  ids:
-    type: SINGLE
-    name: IDS
-    keys: "⿰⿱⿲⿳⿴⿵⿶⿷⿸⿹⿺⿻↷↔"
-  jp:
-    type: SINGLE
-    name: 假名
-    keys: "あいうえおかがきぎくぐけげこごさざしじすずせぜそぞただちぢつづてでとどなにぬねのはばぱひびぴふぶぷへべぺほぼぽまみむめもゃやゅゆょよらりるれろわをんアィイウェエオカガキギクグケゲコゴサザシジスズセゼソゾタダチヂツヅテデトドナニヌネノハバパヒビピフブプヘベペホボポマミムメモャヤュユョヨラリルレロワヲン"
-  symbollist:
-    type: SYMBOL
-    name: 符号表
-    keys: [{符号: '/fh'}, {电脑: '/dn'}, {象棋: '/xq'}, {麻将: '/mj'}, {骰子: '/sz'}, {扑克: '/pk'}, {天气: '/tq'}, {音乐: '/yy'}, {八卦: '/bg'}, {易经: '/lssg'}, {天体: '/tt'}, {星座: '/xz'}, {星号: '/xh'}, {方块: '/fk'}, {几何: '/jh'}, {箭头: '/jt'}, {数学: '/sx'}, {上标: '/sb'}, {下标: '/xb'}, {单位: '/dw'}, {货币: '/hb'}, {拼音: '/py'}, {注音: '/zy'}, {假名: '/jm'}, {片假: '/pjm'}, {韩文: '/hw'}, {希腊: '/xl'}, {希大: '/xld'}, {罗马: '/lm'}, {罗大: '/lmd'}, {俄语: '/ey'}, {俄大: '/eyd'}, {表情: '/bq'}, {一: '/1'}, {二: '/2'}, {三: '/3'}, {四: '/4'}, {五: '/5'}, {六: '/6'}, {七: '/7'}, {八: '/8'}, {九: '/9'}, {零: '/0'}, {十: '/10'}, {分数: '/fs'}, {标点: '/bd'}, {偏旁: '/pp'}, {竖标: '/bdz'}]
-
-tool_bar:
-  button_spacing: 13
-  button_font: iconfont.ttf
-
-  primary_button:
-    foreground:
-      style: "hanamaru/yuki.png"
-      padding: 8
-    action: menu_keyboard
-
-  hide_button: &hide_button
-    foreground:
-      style: "ic@keyboard_close"
-    action: hide
-
-  emoji_button: &emoji_button
-    foreground:
-      style: "ic@emoticon_cry_outline"
-    action: liquid_keyboard_emoji
-
-  clipboard_button: &clipboard_button
-    foreground:
-      style: "ic@clipboard_text_outline"
-    action: liquid_keyboard_clipboard
-
-  edit_button: &edit_button
-    foreground:
-      style: "ic@cursor_move"
-    action: keyboard_edit
-
-  redo_button: &redo_button
-    foreground:
-      style: "ic@redo"
-    action: redo
-
-  undo_button: &undo_button
-    foreground:
-      style: "ic@undo"
-    action: undo
-
-  right_button: &right_button
-    foreground:
-      style: "ic@arrow-right"
-      padding: 14
-    action: right
-
-  left_button: &left_button
-    foreground:
-      style: "ic@arrow-left"
-      padding: 14
-    action: left
-
-  buttons: [*emoji_button, *edit_button, *clipboard_button, *redo_button, *undo_button, *right_button, *left_button]
-
-preset_keyboards:
-
-  default:
-    author: " "
-    name: 26键
-    width: 10
-    ascii_mode: 0
-    reset_ascii_mode: false
-    label_transform: uppercase
-    key_symbol_offset_x: 14
-    keys:
-      - {click: q, long_click: "`", swipe_up: "`", swipe_down: home}
-      - {click: w, long_click: "{", swipe_up: "{"}
-      - {click: e, long_click: "}", swipe_up: "}"}
-      - {click: r, long_click: "[", swipe_up: "["}
-      - {click: t, long_click: "]", swipe_up: "]"}
-      - {click: y, long_click: "%", swipe_up: "%"}
-      - {click: u, long_click: "=", swipe_up: "="}
-      - {click: i, long_click: "|", swipe_up: "|", swipe_down: lua_music}
-      - {click: o, long_click: "^", swipe_up: "^"}
-      - {click: p, long_click: "\\", swipe_up: "\\", swipe_down: end}
-
-      - {width: 5}
-      - {click: a, long_click: "@", swipe_up: "@", swipe_down: select_all}
-      - {click: s, long_click: "#", swipe_up: "#"}
-      - {click: d, long_click: "~", swipe_up: "~", swipe_down: "date"}
-      - {click: f, long_click: "_", swipe_up: "_", swipe_down: "time"}
-      - {click: g, long_click: "&", swipe_up: "&", swipe_down: "keyboard_edit"}
-      - {click: h, long_click: "-", swipe_up: "-"}
-      - {click: j, long_click: "+", swipe_up: "+", swipe_down: "liquid_keyboard_clipboard"}
-      - {click: k, long_click: "(", swipe_up: "(", swipe_down: "liquid_keyboard_emoji"}
-      - {click: l, long_click: ")", swipe_up: ")", swipe_down: "{hint_switch}{symbol_switch}"}
-      - {width: 5}
-
-      - {click: shift_L, label_symbol: " ", long_click: shift_L, double_click: shift_L2, composing: escape, swipe_down: menu, width: 15, hilited_key_back_color: background_enter}
-      - {click: z, long_click: "*", swipe_up: "*"}
-      - {click: x, long_click: "\"", swipe_up: "\"", swipe_down: cut}
-      - {click: c, long_click: "'", swipe_up: "'", swipe_down: copy}
-      - {click: v, long_click: "$", swipe_up: "$", swipe_down: paste}
-      - {click: b, long_click: ":", swipe_up: ":"}
-      - {click: n, long_click: "!", swipe_up: "!", swipe_down: "\n"}
-      - {click: m, long_click: "?", swipe_up: "?", swipe_down: "ascii_mode_switch"}
-      - {click: back_space_2, swipe_up: all_clear, swipe_down: del_line, swipe_left: Delete, width: 15}
-
-      - {width: 15, click: keyboard_number, swipe_up: "liquid_keyboard_ascii", swipe_down: theme_settings, composing: candidate_second}
-      - {click: comma, label: " ，", composing: candidate_second, swipe_up: "zdic_search"}
-      - {click: ascii_mode_switch, label_symbol: " ", long_click: liquid_keyboard_switch, composing: candidate_second, key_text_size: 20}
-      - {click: space, swipe_left: left, swipe_right: right, swipe_up: up, swipe_down: down, width: 30}
-      - {click: slash, composing: candidate_first}
-      - {click: period, label: " 。", composing: candidate_first}
-      - {click: return, label_symbol: " ", popup: ["color_switch", "theme_settings"], composing: candidate_fourth, swipe_up: Mode_switch, width: 15, key_back_color: background_enter, key_text_color: text_enter,}
-
-  number:
-    author: " "
-    name: 数字
-    width: 20
-    ascii_mode: 1
-    keys:
-      - {click: "+", long_click: "#", key_back_color: background_normal, key_text_color: text_normal}
-      - {click: 1}
-      - {click: 2}
-      - {click: 3}
-      - {click: space_2, key_back_color: background_normal, key_text_color: text_normal}
-
-      - {click: "-", long_click: "%", key_back_color: background_normal, key_text_color: text_normal}
-      - {click: 4}
-      - {click: 5}
-      - {click: 6}
-      - {click: "=", key_back_color: background_normal, key_text_color: text_normal}
-
-      - {click: "*", long_click: "u", key_back_color: background_normal, key_text_color: text_normal}
-      - {click: 7}
-      - {click: 8}
-      - {click: 9}
-      - {click: back_space}
-
-      - {click: "/", long_click: '\', key_back_color: background_normal, key_text_color: text_normal}
-      - {click: keyboard_default}
-      - {click: 0}
-      - {click: ".", key_back_color: background_normal, key_text_color: text_normal}
-      - {click: return, key_back_color: background_enter, key_text_color: text_enter,}
-
-  edit:
-    name: 编辑
-    width: 20.25
-    height: 70
-    ascii_mode: 1
-    keys:
-      - {click: select_all}
-      - {click: left_2}
-      - {click: up}
-      - {click: right_2}
-      - {click: keyboard_default, width: 19}
-
-      - {click: cut}
-      - {click: left}
-      - {click: shift_L}
-      - {click: right}
-      - {click: space_2, width: 19}
-
-      - {click: copy}
-      - {click: home}
-      - {click: down}
-      - {click: end}
-      - {click: back_space, width: 19}
-
-      - {click: paste}
-      - {click: undo}
-      - {click: Tab}
-      - {click: redo}
-      - {click: return, width: 19}
-
-preset_keys:
-  # 基础功能键
-  shift_L: {label: Shift, preview: '⇪', functional: true, send: Shift_L}
-  shift_L2: {label: Shift, preview: '⇪', functional: true, send: Shift_L, shift_lock: click}
-  return: {label: "Enter", preview: '↵', functional: true, send: Return}
-  back_space: {label: ⌫, repeatable: true, functional: true, send: BackSpace}
-  back_space_2: {label: Rol, preview: "⌫", repeatable: true, functional: true, send: BackSpace}
-  space: {slide_cursor: true, repeatable: false, preview: ' ', functional: false, label: '_______', send: space}
-  space_2: {repeatable: false, label: '⎵', functional: true, send: space}
-  escape: {label: Esc, functional: false, send: Escape}
-  comma: {label: ",", functional: true, send: ","}
-  period: {label: ".", functional: true, slide_delete: true, send: "."}
-  slash: {label: "/", functional: false, send: "/"}
-
-  # 方向键
-  left: {label: '←', send: Left, repeatable: true, functional: false}
-  right: {label: '→', send: Right, repeatable: true, functional: false}
-  up: {label: '↑', send: Up, repeatable: true, functional: false}
-  down: {label: '↓', send: Down, repeatable: true, functional: false}
-  left_2: {label: '⇦', send: Control+Left, repeatable: true, functional: false}
-  right_2: {label: '⇨', send: Control+Right, repeatable: true, functional: false}
-
-  # 编辑功能
-  select_all: {label: 全选, functional: false, send: Control+a}
-  cut: {label: 剪切, functional: false, send: Control+x}
-  copy: {label: 复制, functional: false, send: Control+c}
-  paste: {label: 粘贴, functional: false, send: Control+v}
-  undo: {label: 撤销, functional: false, send: Control+z}
-  redo: {label: 重做, functional: false, send: Control+Shift+z}
-
-  # 光标控制
-  home: {label: 行首, send: Home, functional: false}
-  end: {label: 行尾, send: End, functional: false}
-  page_up: {label: 上页, send: Page_Up, functional: false}
-  page_down: {label: 下页, send: Page_Down, functional: false}
-
-  # 键盘切换
-  keyboard_default: {label: 返回, functional: true, send: Eisu_toggle, select: .default}
-  keyboard_number: {label: "?123", functional: true, send: Eisu_toggle, select: number}
-  keyboard_edit: {label: edit, functional: false, send: Eisu_toggle, select: edit}
-
-  # Liquid Keyboard
-  liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"}
-  liquid_keyboard_switch: {label: 更多, send: function, command: liquid_keyboard, option: "特殊"}
-  liquid_keyboard_tabs: {label: 更多, send: function, command: liquid_keyboard, option: "更多"}
-  liquid_keyboard_emoji: {label: "🙂", send: function, command: liquid_keyboard, option: "emoji"}
-  liquid_keyboard_clipboard: {label: 剪贴, send: function, command: liquid_keyboard, option: "剪贴"}
-  liquid_keyboard_ascii: {label: 符号, send: function, command: liquid_keyboard, option: "英文", functional: true}
-  liquid_space: {label: 回车, send: Return}
-  liquid_back_space: {label: "退格", repeatable: true, functional: true, send: BackSpace}
-  liquid_return: {repeatable: false, label: '空格', functional: true, send: space}
-
-  menu_keyboard: {label: 菜单, send: function, command: menu_keyboard}
-
-  # 输入模式切换
-  ascii_mode_switch: {toggle: ascii_mode, functional: false, send: Mode_switch, states: ["ic@web", "ic@web"]}
-  # 日期时间
-  date: {label: 日期, send: function, command: date, option: "yyyy-MM-dd"}
-  time: {label: 時間, send: function, command: date, option: "HH:mm:ss"}
-  # 特殊功能
-  menu: {label: 菜单, functional: false, send: Menu}
-  settings: {label: 设置, functional: false, send: SETTINGS}
-  theme_settings: {label: 主题, send: SETTINGS, option: "theme"}
-  color_switch: {label: 配色, functional: false, send: PROG_RED}
-  hide: {label: 隐藏, send: BACK}
-  zdic_search: {label: 汉典, functional: false, send: function, command: web_search, option: "https://www.zdic.net/hans/%3$s"}
-
-  # 高级编辑
-  del_line: {label: "Del↔", functional: false, text: "{End}{Shift+Home}{Delete}"}
-  all_clear: {label: "⇤", text: "{Control+End}{Control+Shift+Home}{Delete}"}
-
-  # 切换开关
-  hint_switch: {toggle: _hide_key_hint, send: Mode_switch, states: [≑, ≟]}
-  symbol_switch: {toggle: _hide_key_symbol, send: Mode_switch, states: [☰, ☱]}
-
-  # 候选词选择
-  candidate_first: {label: "U", send: function, command: select_candidate, option: "1"}
-  candidate_second: {label: "Su", send: function, command: select_candidate, option: "2"}
-  candidate_third: {label: "Yun", send: function, command: select_candidate, option: "3"}
-  candidate_fourth: {label: "Fi", send: function, command: select_candidate, option: "4"}
-  lua_music: { label: "music", command: lua, option: "music.lua" }
+    label:
+      after: ' '
+      format: '[%s]'
+      visible: true
+  foreground:
+    comment_font_size: 14
+    label_font_size: 16
+    text_font_size: 16
+  insets:
+    horizontal: 4
+    vertical: 4
+  item_padding:
+    horizontal: 4
+    vertical: 0
