@@ -585,9 +585,11 @@ preset_keyboards:
       swipe_up: up
       width: 30
     - click: ''
-    - click: period
-      composing: candidate_1
-      label: ' 。'
+    - click: back_space_2
+      swipe_down: delete_line
+      swipe_left: Delete
+      swipe_up: clear_all
+      width: 15
     - click: return
       composing: ''''
       key_back_color: background_enter

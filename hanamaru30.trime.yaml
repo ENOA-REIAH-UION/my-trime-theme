@@ -557,18 +557,41 @@ preset_keyboards:
       swipe_left: Delete
       swipe_up: clear_all
       width: 15
-    - composing: ''''
-    - composing: ''
-    - composing: /
+    - click: keyboard_number
+      composing: ''''
+      swipe_down: theme_settings
+      swipe_up: liquid_keyboard_ascii
+      width: 15
+    - click: comma
+      composing: ''
+      label: ' ，'
+      swipe_up: zdic_search
+    - click: ascii_mode_switch
+      composing: /
+      key_text_size: 20
+      label_symbol: ' '
+      long_click: liquid_keyboard_switch
     - click: space
       swipe_down: down
       swipe_left: left
       swipe_right: right
       swipe_up: up
       width: 30
-    - composing: ''''
-    - composing: ''
-    - composing: /
+    - click: slash
+      composing: ''''
+    - click: period
+      composing: ''
+      label: ' 。'
+    - click: return
+      composing: /
+      key_back_color: background_enter
+      key_text_color: text_enter
+      label_symbol: ' '
+      popup:
+      - color_switch
+      - theme_settings
+      swipe_up: Mode_switch
+      width: 15
     label_transform: uppercase
     name: 26键
     reset_ascii_mode: false

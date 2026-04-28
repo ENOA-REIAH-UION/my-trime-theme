@@ -42,6 +42,6 @@ base
         { index = 31, click = "" },
         { index = 34, click = "" },
         { before = 32 } & (base_keys |> std.array.at 21),
-        { index = 36 } & (base_keys |> std.array.at 29),
+        { index = 35 } & (base_keys |> std.array.at 29),
       ],
 }
