@@ -542,6 +542,7 @@ preset_keyboards:
       swipe_up: $
     - click: b
       long_click: ':'
+      swipe_down: Tab
       swipe_up: ':'
     - click: n
       long_click: '!'
@@ -727,6 +728,7 @@ preset_keyboards:
       swipe_up: $
     - click: b
       long_click: ':'
+      swipe_down: Tab
       swipe_up: ':'
     - click: n
       long_click: '!'
@@ -926,6 +928,7 @@ preset_keyboards:
       swipe_up: $
     - click: b
       long_click: ':'
+      swipe_down: Tab
       swipe_up: ':'
     - click: n
       long_click: '!'

@@ -605,7 +605,7 @@ let base = {
         { click = "x", long_click = "\"", swipe_up = "\"", swipe_down = "cut" },
         { click = "c", long_click = "'", swipe_up = "'", swipe_down = "copy" },
         { click = "v", long_click = "$", swipe_up = "$", swipe_down = "paste" },
-        { click = "b", long_click = ":", swipe_up = ":" },
+        { click = "b", long_click = ":", swipe_up = ":", swipe_down = "Tab"},
         { click = "n", long_click = "!", swipe_up = "!", swipe_down = "\n" },
         { click = "m", long_click = "?", swipe_up = "?", swipe_down = "ascii_mode_switch" },
         { click = "back_space_2", swipe_up = "clear_all", swipe_down = "delete_line", swipe_left = "Delete", width = 15 },
