@@ -895,10 +895,11 @@ preset_keyboards:
       long_click: (
       swipe_down: liquid_keyboard_emoji
       swipe_up: (
-    - click: ;
+    - click: l
       long_click: )
       swipe_down: '{hint_switch}{symbol_switch}'
       swipe_up: )
+    - click: ;
     - width: 0
     - click: shift_L
       composing: escape
@@ -1090,7 +1091,7 @@ preset_keys:
   keyboard_default:
     functional: true
     label: 返回
-    select: default
+    select: .default
     send: Eisu_toggle
   keyboard_edit:
     functional: false

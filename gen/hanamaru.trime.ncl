@@ -704,7 +704,7 @@ let base = {
     end = { label = "行尾", send = "End", functional = false },
     page_up = { label = "上页", send = "Page_Up", functional = false },
     page_down = { label = "下页", send = "Page_Down", functional = false },
-    keyboard_default = { label = "返回", functional = true, send = "Eisu_toggle", select = "default" },
+    keyboard_default = { label = "返回", functional = true, send = "Eisu_toggle", select = ".default" },
     keyboard_number = { label = "?123", functional = true, send = "Eisu_toggle", select = "number" },
     keyboard_edit = { label = "edit", functional = false, send = "Eisu_toggle", select = "edit" },
     liquid_keyboard_clipboard = { label = "剪贴", send = "FUNCTION", command = "liquid_keyboard", option = "剪贴" },
