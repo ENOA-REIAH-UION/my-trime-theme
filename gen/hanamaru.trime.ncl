@@ -28,7 +28,7 @@ let custom = fun base =>
               base.preset_keyboards.default.keys
               [
                 { index = 10, patch = { width | priority 1 = 0 } },
-                { index = 19, patch = { click | priority 1 = ";" } },
+                { after = 19, click = ";" },
                 { index = 20, patch = { width | priority 1 = 0 } },
                 { index = 30, patch = { composing | priority 1 = "" } },
                 { index = 31, patch = { composing | priority 1 = "" } },
