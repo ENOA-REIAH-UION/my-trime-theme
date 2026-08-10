@@ -599,7 +599,6 @@ preset_keyboards:
       popup:
       - color_switch
       - theme_settings
-      swipe_up: Mode_switch
       width: 15
     label_transform: uppercase
     name: 26键
@@ -785,7 +784,6 @@ preset_keyboards:
       popup:
       - color_switch
       - theme_settings
-      swipe_up: Mode_switch
       width: 15
     label_transform: uppercase
     name: 26键
@@ -985,7 +983,6 @@ preset_keyboards:
       popup:
       - color_switch
       - theme_settings
-      swipe_up: Mode_switch
       width: 15
     label_transform: uppercase
     name: 26键
@@ -998,7 +995,7 @@ preset_keyboards:
 preset_keys:
   ascii_mode_switch:
     functional: false
-    send: Mode_switch
+    send: SWITCH_CHARSET
     states:
     - ic@web
     - ic@web
@@ -1018,22 +1015,22 @@ preset_keys:
     command: select_candidate
     label: U
     option: '1'
-    send: function
+    send: FUNCTION
   candidate_2:
     command: select_candidate
     label: Su
     option: '2'
-    send: function
+    send: FUNCTION
   candidate_3:
     command: select_candidate
     label: Yun
     option: '3'
-    send: function
+    send: FUNCTION
   candidate_4:
     command: select_candidate
     label: Fi
     option: '4'
-    send: function
+    send: FUNCTION
   clear_all:
     label: ⇤
     text: '{Control+End}{Control+Shift+Home}{Delete}'
@@ -1067,7 +1064,7 @@ preset_keys:
     command: date
     label: 日期
     option: yyyy-MM-dd
-    send: function
+    send: FUNCTION
   delete_line:
     functional: false
     label: Del↔
@@ -1090,7 +1087,7 @@ preset_keys:
     label: 隐藏
     send: BACK
   hint_switch:
-    send: Mode_switch
+    send: SWITCH_CHARSET
     states:
     - ≑
     - ≟
@@ -1129,32 +1126,32 @@ preset_keys:
     functional: true
     label: 符号
     option: 英文
-    send: function
+    send: FUNCTION
   liquid_keyboard_clipboard:
     command: liquid_keyboard
     label: 剪贴
     option: 剪贴
-    send: function
+    send: FUNCTION
   liquid_keyboard_emoji:
     command: liquid_keyboard
     label: 🙂
     option: emoji
-    send: function
+    send: FUNCTION
   liquid_keyboard_exit:
     command: liquid_keyboard
     label: 返回
     option: '-1'
-    send: function
+    send: FUNCTION
   liquid_keyboard_switch:
     command: liquid_keyboard
     label: 更多
     option: 特殊
-    send: function
+    send: FUNCTION
   liquid_keyboard_tabs:
     command: liquid_keyboard
     label: 更多
     option: 更多
-    send: function
+    send: FUNCTION
   liquid_return:
     functional: true
     label: 空格
@@ -1170,11 +1167,11 @@ preset_keys:
   menu:
     functional: false
     label: 菜单
-    send: Menu
+    send: MENU
   menu_keyboard:
     command: menu_keyboard
     label: 菜单
-    send: function
+    send: FUNCTION
   page_down:
     functional: false
     label: 下页
@@ -1242,7 +1239,7 @@ preset_keys:
     repeatable: false
     send: space
   symbol_switch:
-    send: Mode_switch
+    send: SWITCH_CHARSET
     states:
     - ☰
     - ☱
@@ -1256,7 +1253,7 @@ preset_keys:
     command: date
     label: 時間
     option: HH:mm:ss
-    send: function
+    send: FUNCTION
   undo:
     functional: false
     label: 撤销
@@ -1271,7 +1268,7 @@ preset_keys:
     functional: false
     label: 汉典
     option: https://www.zdic.net/hans/%3$s
-    send: function
+    send: FUNCTION
 style:
   auto_caps: false
   candidate_font:
