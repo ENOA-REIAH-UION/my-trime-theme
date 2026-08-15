@@ -1079,11 +1079,9 @@ preset_keys:
     label: 隐藏
     send: BACK
   hint_switch:
-    send: SWITCH_CHARSET
-    states:
-    - ≑
-    - ≟
-    toggle: _hide_key_hint
+    command: switch_hide_key_hint
+    label: 注解
+    send: FUNCTION
   home:
     functional: false
     label: 行首
@@ -1231,11 +1229,9 @@ preset_keys:
     repeatable: false
     send: space
   symbol_switch:
-    send: SWITCH_CHARSET
-    states:
-    - ☰
-    - ☱
-    toggle: _hide_key_symbol
+    command: switch_hide_key_symbol
+    label: 符号
+    send: FUNCTION
   theme_settings:
     functional: false
     label: 主题
