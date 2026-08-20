@@ -679,6 +679,10 @@ let base = {
   preset_keys = {
     shift_L = { label = "Shift", preview = "⇪", functional = true, send = "Shift_L" },
     shift_L2 = shift_L & { shift_lock = "click" },
+    alt_L = { label = "Alt", send = "Alt_L"},
+    alt_L2 = alt_L & { shift_lock = "click" },
+    ctrl_L = { label = "Ctrl", send = "Control_L" },
+    ctrl_L2 = ctrl_L & { shift_lock = "click" },
     return = { label = "Enter", preview = "↵", functional = true, send = "Return" },
     back_space = { label = "⌫", repeatable = true, functional = true, send = "BackSpace" },
     back_space_2 = back_space & { label | priority 1 = "Rol", preview | priority 1 = "⌫" },
