@@ -986,6 +986,13 @@ preset_keyboards:
   snow_qingyun:
     import_preset: snow_default
 preset_keys:
+  alt_L:
+    label: Alt
+    send: Alt_L
+  alt_L2:
+    label: Alt
+    send: Alt_L
+    shift_lock: click
   ascii_mode_switch:
     functional: false
     send: SWITCH_CHARSET
@@ -1039,6 +1046,13 @@ preset_keys:
     functional: false
     label: 复制
     send: Control+c
+  ctrl_L:
+    label: Ctrl
+    send: Control_L
+  ctrl_L2:
+    label: Ctrl
+    send: Control_L
+    shift_lock: click
   ctrl_left:
     functional: false
     label: ⇦
