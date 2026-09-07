@@ -576,12 +576,11 @@ preset_keyboards:
       swipe_up: clear_all
       width: 15
     - click: keyboard_number
-      composing: candidate_2
+      composing: candidate_3
       swipe_down: theme_settings
       swipe_up: liquid_keyboard_ascii
       width: 15
     - click: comma
-      composing: candidate_2
       label: ' ，'
       swipe_up: zdic_search
     - click: ascii_mode_switch
@@ -598,7 +597,6 @@ preset_keyboards:
     - click: slash
       composing: candidate_1
     - click: period
-      composing: candidate_1
       label: ' 。'
     - click: return
       composing: candidate_4
