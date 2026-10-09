@@ -39,6 +39,24 @@ let custom = fun base =>
               ]
         }
         & base.preset_keyboards.default,
+
+      xxm = { import_preset = "xxm_default" },
+      xxm_default =
+        {
+          keys | priority 1 =
+            patch
+              base.preset_keyboards.default.keys
+              [
+                { index = 10, patch = { width | priority 1 = 0 } },
+                { after = 19, click = ";" },
+                { index = 20, patch = { width | priority 1 = 0 } },
+                { index = 30, patch = { composing | priority 1 = "3" } },
+                { index = 32, patch = { composing | priority 1 = "4" } },
+                { index = 34, patch = { composing | priority 1 = "" } },
+                { index = 36, patch = { composing | priority 1 = "8", swipe_up = "9" } },
+              ]
+        }
+        & base.preset_keyboards.default,
     },
   }
 in
