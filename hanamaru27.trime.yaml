@@ -1,3 +1,4 @@
+---
 author: https://github.com/ENOA-REIAH-UION
 config_version: 2026-04-28
 fallback_colors:
@@ -1001,6 +1002,161 @@ preset_keyboards:
     import_preset: snow_default
   snow_qingyun:
     import_preset: snow_default
+  xxm:
+    import_preset: xxm_default
+  xxm_default:
+    ascii_mode: 0
+    author: ' '
+    key_symbol_offset_x: 14
+    keys:
+    - click: q
+      long_click: '`'
+      swipe_down: home
+      swipe_up: '`'
+    - click: w
+      long_click: '{'
+      swipe_up: '{'
+    - click: e
+      long_click: '}'
+      swipe_up: '}'
+    - click: r
+      long_click: '['
+      swipe_up: '['
+    - click: t
+      long_click: ']'
+      swipe_up: ']'
+    - click: y
+      long_click: '%'
+      swipe_up: '%'
+    - click: u
+      long_click: =
+      swipe_up: =
+    - click: i
+      long_click: '|'
+      swipe_down: lua_music
+      swipe_up: '|'
+    - click: o
+      long_click: ^
+      swipe_up: ^
+    - click: p
+      long_click: \
+      swipe_down: end
+      swipe_up: \
+    - width: 0
+    - click: a
+      long_click: '@'
+      swipe_down: select_all
+      swipe_up: '@'
+    - click: s
+      long_click: '#'
+      swipe_up: '#'
+    - click: d
+      long_click: '~'
+      swipe_down: date
+      swipe_up: '~'
+    - click: f
+      long_click: _
+      swipe_down: time
+      swipe_up: _
+    - click: g
+      long_click: '&'
+      swipe_down: keyboard_edit
+      swipe_up: '&'
+    - click: h
+      long_click: '-'
+      swipe_up: '-'
+    - click: j
+      long_click: +
+      swipe_down: liquid_keyboard_clipboard
+      swipe_up: +
+    - click: k
+      long_click: (
+      swipe_down: liquid_keyboard_emoji
+      swipe_up: (
+    - click: l
+      long_click: )
+      swipe_down: '{hint_switch}{symbol_switch}'
+      swipe_up: )
+    - click: ;
+    - width: 0
+    - click: shift_L
+      composing: escape
+      double_click: shift_L2
+      hilited_key_back_color: background_enter
+      label_symbol: ' '
+      long_click: shift_L
+      swipe_down: menu
+      width: 15
+    - click: z
+      long_click: '*'
+      swipe_up: '*'
+    - click: x
+      long_click: '"'
+      swipe_down: cut
+      swipe_up: '"'
+    - click: c
+      long_click: ''''
+      swipe_down: copy
+      swipe_up: ''''
+    - click: v
+      long_click: $
+      swipe_down: paste
+      swipe_up: $
+    - click: b
+      long_click: ':'
+      swipe_down: Tab
+      swipe_up: ':'
+    - click: n
+      long_click: '!'
+      swipe_down: |2+
+
+      swipe_up: '!'
+    - click: m
+      long_click: '?'
+      swipe_down: ascii_mode_switch
+      swipe_up: '?'
+    - click: back_space_2
+      swipe_down: delete_line
+      swipe_left: Delete
+      swipe_up: clear_all
+      width: 15
+    - click: keyboard_number
+      composing: '3'
+      swipe_down: theme_settings
+      swipe_up: liquid_keyboard_ascii
+      width: 15
+    - click: comma
+      label: ' ，'
+      swipe_up: zdic_search
+    - click: ascii_mode_switch
+      composing: '4'
+      key_text_size: 20
+      label_symbol: ' '
+      long_click: liquid_keyboard_switch
+    - click: space
+      swipe_down: down
+      swipe_left: left
+      swipe_right: right
+      swipe_up: up
+      width: 30
+    - click: slash
+      composing: ''
+    - click: period
+      label: ' 。'
+    - click: return
+      composing: '8'
+      key_back_color: background_enter
+      key_text_color: text_enter
+      label_symbol: ' '
+      popup:
+      - color_switch
+      - theme_settings
+      swipe_up: '9'
+      width: 15
+    label_transform: uppercase
+    name: 26键
+    reset_ascii_mode: false
+    width: 10
 preset_keys:
   alt_L:
     label: Alt
