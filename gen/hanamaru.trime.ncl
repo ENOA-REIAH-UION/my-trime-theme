@@ -319,7 +319,7 @@ let base = {
     row_land = 5,
     key_height = 40,
     key_height_land = 40,
-    single_width = 60,
+    single_width = 50,
     vertical_gap = 8,
     margin_x = 2,
     fixed_key_bar = {
@@ -341,7 +341,7 @@ let base = {
     },
     emoji = {
       type = "SINGLE",
-      keys = ["🤓", "😡", "🤡", "😋", "😅", "😭", "🤔", "😆", "🤣", "😂", "😎", "👍🏻", "🦌", "👊🏻", "😠", "🤮", "🐴", "🌹"]
+      keys = ["🤓", "😡", "🤡", "😋", "😅", "😭", "🤔", "😆", "🤤🤣", "😂", "😎", "👍🏻", "🦌", "👊🏻", "😠", "🤮", "🐴", "🌹", "🤤"]
     },
     emoji_full = {
       type = "SINGLE",
@@ -623,7 +623,7 @@ let base = {
         { click = "x", long_click = "\"", swipe_up = "\"", swipe_down = "cut" },
         { click = "c", long_click = "'", swipe_up = "'", swipe_down = "copy" },
         { click = "v", long_click = "$", swipe_up = "$", swipe_down = "paste" },
-        { click = "b", long_click = ":", swipe_up = ":", swipe_down = "Tab"},
+        { click = "b", long_click = ":", swipe_up = ":", swipe_down = "Tab" },
         { click = "n", long_click = "!", swipe_up = "!", swipe_down = "\n" },
         { click = "m", long_click = "?", swipe_up = "?", swipe_down = "ascii_mode_switch" },
         { click = "back_space_2", swipe_up = "clear_all", swipe_down = "delete_line", swipe_left = "Delete", width = 15 },
@@ -697,7 +697,7 @@ let base = {
   preset_keys = {
     shift_L = { label = "Shift", preview = "⇪", functional = true, send = "Shift_L" },
     shift_L2 = shift_L & { shift_lock = "click" },
-    alt_L = { label = "Alt", send = "Alt_L"},
+    alt_L = { label = "Alt", send = "Alt_L" },
     alt_L2 = alt_L & { shift_lock = "click" },
     ctrl_L = { label = "Ctrl", send = "Control_L" },
     ctrl_L2 = ctrl_L & { shift_lock = "click" },
@@ -736,7 +736,7 @@ let base = {
     liquid_keyboard_emoji = liquid_keyboard_clipboard & { label | priority 1 = "🙂", option | priority 1 = "emoji" },
     liquid_keyboard_ascii = liquid_keyboard_clipboard & { label | priority 1 = "符号", option | priority 1 = "英文", functional | priority 1 = true },
     liquid_space = { label = "回车", send = "Return" },
-    liquid_back_space = back_space,
+    liquid_back_space = back_space & { label | priority 1 = "删除" },
     liquid_return = space_2 & { label | priority 1 = "空格" },
     menu_keyboard = { label = "菜单", send = "FUNCTION", command = "menu_keyboard" },
     ascii_mode_switch = { toggle = "ascii_mode", functional = false, send = "SWITCH_CHARSET", states = ["ic@web", "ic@web"] },
@@ -750,8 +750,8 @@ let base = {
     zdic_search = { label = "汉典", functional = false, send = "FUNCTION", command = "web_search", option = "https://www.zdic.net/hans/%3$s" },
     delete_line = { label = "Del↔", functional = false, text = "{End}{Shift+Home}{Delete}" },
     clear_all = { label = "⇤", text = "{Control+End}{Control+Shift+Home}{Delete}" },
-    hint_switch = { label = "注解", send = "FUNCTION", command = "switch_hide_key_hint"},
-    symbol_switch = { label = "符号", send = "FUNCTION", command = "switch_hide_key_symbol"},
+    hint_switch = { label = "注解", send = "FUNCTION", command = "switch_hide_key_hint" },
+    symbol_switch = { label = "符号", send = "FUNCTION", command = "switch_hide_key_symbol" },
     candidate_1 = { label = "U", send = "FUNCTION", command = "select_candidate", option = "1" },
     candidate_2 = candidate_1 & { label | priority 1 = "Su", option | priority 1 = "2" },
     candidate_3 = candidate_1 & { label | priority 1 = "Yun", option | priority 1 = "3" },
