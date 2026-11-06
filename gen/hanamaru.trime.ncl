@@ -549,7 +549,7 @@ let base = {
     },
     emoji = {
       foreground = { style = "ic@emoticon_cry_outline" },
-      action = "liquid_keyboard_emoji",
+      action = "emoji_window",
     },
     edit = {
       foreground = { style = "ic@cursor_move" },
@@ -615,7 +615,7 @@ let base = {
         { click = "g", long_click = "&", swipe_up = "&", swipe_down = "keyboard_edit" },
         { click = "h", long_click = "-", swipe_up = "-" },
         { click = "j", long_click = "+", swipe_up = "+", swipe_down = "liquid_keyboard_clipboard" },
-        { click = "k", long_click = "(", swipe_up = "(", swipe_down = "liquid_keyboard_emoji" },
+        { click = "k", long_click = "(", swipe_up = "(", swipe_down = "emoji_window" },
         { click = "l", long_click = ")", swipe_up = ")", swipe_down = "{hint_switch}{symbol_switch}" },
         { width = 5 },
         { click = "shift_L", label_symbol = " ", long_click = "shift_L", double_click = "shift_L2", composing = "escape", swipe_down = "menu", width = 15, hilited_key_back_color = "background_enter" },
@@ -738,6 +738,8 @@ let base = {
     liquid_space = { label = "回车", send = "Return" },
     liquid_back_space = back_space & { label | priority 1 = "删除" },
     liquid_return = space_2 & { label | priority 1 = "空格" },
+    # emoji_window 非主分支参数
+    emoji_window = { label = "emoji", send = "FUNCTION", command = "emoji_window"},
     menu_keyboard = { label = "菜单", send = "FUNCTION", command = "menu_keyboard" },
     ascii_mode_switch = { toggle = "ascii_mode", functional = false, send = "SWITCH_CHARSET", states = ["ic@web", "ic@web"] },
     date = { label = "日期", send = "FUNCTION", command = "date", option = "yyyy-MM-dd" },

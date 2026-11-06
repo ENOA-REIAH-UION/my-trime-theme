@@ -529,7 +529,7 @@ preset_keyboards:
       swipe_up: +
     - click: k
       long_click: (
-      swipe_down: liquid_keyboard_emoji
+      swipe_down: emoji_window
       swipe_up: (
     - click: l
       long_click: )
@@ -715,7 +715,7 @@ preset_keyboards:
       swipe_up: +
     - click: k
       long_click: (
-      swipe_down: liquid_keyboard_emoji
+      swipe_down: emoji_window
       swipe_up: (
     - click: l
       long_click: )
@@ -914,7 +914,7 @@ preset_keyboards:
       swipe_up: +
     - click: k
       long_click: (
-      swipe_down: liquid_keyboard_emoji
+      swipe_down: emoji_window
       swipe_up: (
     - click: l
       long_click: )
@@ -1074,7 +1074,7 @@ preset_keyboards:
       swipe_up: +
     - click: k
       long_click: (
-      swipe_down: liquid_keyboard_emoji
+      swipe_down: emoji_window
       swipe_up: (
     - click: l
       long_click: )
@@ -1256,6 +1256,10 @@ preset_keys:
     label: ↓
     repeatable: true
     send: Down
+  emoji_window:
+    command: emoji_window
+    label: emoji
+    send: FUNCTION
   end:
     functional: false
     label: 行尾
@@ -1516,7 +1520,7 @@ tool_bar:
   - iconfont.ttf
   button_spacing: 13
   buttons:
-  - action: liquid_keyboard_emoji
+  - action: emoji_window
     foreground:
       style: ic@emoticon_cry_outline
   - action: keyboard_edit
@@ -1548,7 +1552,7 @@ tool_bar:
     foreground:
       style: ic@cursor_move
   emoji:
-    action: liquid_keyboard_emoji
+    action: emoji_window
     foreground:
       style: ic@emoticon_cry_outline
   hide_button:
