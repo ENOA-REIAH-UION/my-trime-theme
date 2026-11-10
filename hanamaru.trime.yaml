@@ -598,6 +598,7 @@ preset_keyboards:
       width: 30
     - click: slash
       composing: candidate_1
+      swipe_up: slash
     - click: period
       label: ' 。'
     - click: return
@@ -782,6 +783,7 @@ preset_keyboards:
       width: 30
     - click: slash
       composing: candidate_1
+      swipe_up: slash
     - click: period
       composing: ''
       label: ' 。'
@@ -982,6 +984,7 @@ preset_keyboards:
       width: 30
     - click: slash
       composing: ''
+      swipe_up: slash
     - click: period
       composing: ''
       label: ' 。'
@@ -1141,6 +1144,7 @@ preset_keyboards:
       width: 30
     - click: slash
       composing: ''
+      swipe_up: slash
     - click: period
       label: ' 。'
     - click: return

@@ -631,7 +631,7 @@ let base = {
         { click = "comma", label = " ，", swipe_up = "zdic_search" },
         { click = "ascii_mode_switch", label_symbol = " ", long_click = "liquid_keyboard_switch", composing = "candidate_2", key_text_size = 20 },
         { click = "space", swipe_left = "left", swipe_right = "right", swipe_up = "up", swipe_down = "down", width = 30 },
-        { click = "slash", composing = "candidate_1" },
+        { click = "slash", composing = "candidate_1", swipe_up = "slash" },
         { click = "period", label = " 。" },
         { click = "return", label_symbol = " ", popup = ["color_switch", "theme_settings"], composing = "candidate_4", width = 15, key_back_color = "background_enter", key_text_color = "text_enter" },
       ],
